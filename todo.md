@@ -1,0 +1,8 @@
+# 本次新增單字資料工作
+
+- [x] 建立 typed JSON 單字資料結構，包含 id、word、translation、category、image、imagePosition、audio 與 alt 欄位
+- [x] 將目前 50 組單字搬移至獨立資料檔
+- [x] 建立圖片資產命名、路徑與 fallback 規則
+- [x] 生成並接入代表性單字圖片資產
+- [x] 更新卡片 UI 使用 image 與 imagePosition
+- [x] 執行型別檢查與預覽驗證
