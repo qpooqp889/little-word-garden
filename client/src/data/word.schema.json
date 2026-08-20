@@ -8,7 +8,7 @@
     "word": {"type": "string", "description": "英文單字，小寫顯示"},
     "translation": {"type": "string", "description": "繁體中文翻譯"},
     "emoji": {"type": "string", "description": "圖片尚未完成時使用的 fallback 視覺"},
-    "category": {"type": "string", "enum": ["Animals", "Food", "Transport", "Nature & Home"]},
+    "category": {"type": "string", "enum": ["Animals", "Food", "Transport", "Nature & Home", "Colors", "Numbers", "Shapes"]},
     "image": {"type": ["string", "null"], "description": "生成圖片或上傳圖片的完整 webdev storage URL"},
     "imagePosition": {"type": "string", "default": "50% 50%", "description": "CSS object-position，例如 50% 50% 或 40% 60%"},
     "imageAlt": {"type": "string", "description": "給螢幕閱讀器的英文圖片描述"},
