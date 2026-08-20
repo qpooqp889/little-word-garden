@@ -48,3 +48,11 @@
 - [x] 優化手機單字卡、遊戲與星星收集冊排版
 - [x] 驗證 390px 與 430px 手機尺寸
 - [x] 保存並交付手機版優化版本
+
+# GitHub 與 GitHub Pages
+
+- [ ] 加入 GitHub Pages 的 Vite base 與建置設定
+- [ ] 建立 GitHub Actions Pages workflow
+- [ ] 建立公開 little-word-garden 儲存庫並推送程式碼
+- [ ] 驗證 workflow、建置產物與 Pages 條件
+- [ ] 交付儲存庫連結與最後啟用步驟
