@@ -6,3 +6,11 @@
 - [x] 生成並接入代表性單字圖片資產
 - [x] 更新卡片 UI 使用 image 與 imagePosition
 - [x] 執行型別檢查與預覽驗證
+
+# 雙語發音更新
+
+- [x] 在每筆單字加入 englishAudio、chineseAudio 與語音 fallback 設定
+- [x] 更新 JSON Schema 的雙語音檔欄位
+- [x] 實作英文發音與中文發音兩個獨立按鈕
+- [x] 驗證停止前一段語音、語系與按鈕狀態
+- [x] 保存並交付雙語發音版本

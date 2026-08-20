@@ -2,17 +2,27 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Little Word Garden Vocabulary Item",
   "type": "object",
-  "required": ["id", "word", "translation", "emoji", "category", "image", "imagePosition", "imageAlt", "audio"],
+  "required": ["id", "word", "translation", "emoji", "category", "image", "imagePosition", "imageAlt", "englishAudio", "chineseAudio", "speech"],
   "properties": {
     "id": {"type": "string", "description": "唯一識別碼，例如 animals-cat"},
     "word": {"type": "string", "description": "英文單字，小寫顯示"},
     "translation": {"type": "string", "description": "繁體中文翻譯"},
     "emoji": {"type": "string", "description": "圖片尚未完成時使用的 fallback 視覺"},
     "category": {"type": "string", "enum": ["Animals", "Food", "Transport", "Nature & Home"]},
-    "image": {"type": ["string", "null"], "description": "生成圖片或上傳圖片的完整 webdev storage URL；尚未生成時為 null"},
+    "image": {"type": ["string", "null"], "description": "生成圖片或上傳圖片的完整 webdev storage URL"},
     "imagePosition": {"type": "string", "default": "50% 50%", "description": "CSS object-position，例如 50% 50% 或 40% 60%"},
     "imageAlt": {"type": "string", "description": "給螢幕閱讀器的英文圖片描述"},
-    "audio": {"type": ["string", "null"], "description": "可選的音檔 URL；為 null 時使用瀏覽器 SpeechSynthesis"}
+    "englishAudio": {"type": ["string", "null"], "description": "英文音檔 URL；為 null 時使用 SpeechSynthesis"},
+    "chineseAudio": {"type": ["string", "null"], "description": "繁體中文音檔 URL；為 null 時使用 SpeechSynthesis"},
+    "speech": {
+      "type": "object",
+      "required": ["englishLocale", "chineseLocale"],
+      "properties": {
+        "englishLocale": {"type": "string", "default": "en-US"},
+        "chineseLocale": {"type": "string", "default": "zh-TW"}
+      },
+      "additionalProperties": false
+    }
   },
   "additionalProperties": false
 }
