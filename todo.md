@@ -209,8 +209,16 @@
 
 # GitHub Pages 最新版本未顯示診斷
 
-- [ ] 比對本地 checkpoint 與 GitHub main commit
-- [ ] 檢查最新 Pages workflow 與部署 artifact
-- [ ] 直接比對公開網站 HTML、資產與版本資訊
-- [ ] 修正未同步或快取問題並重新部署
-- [ ] 回報可驗證的最新網址與操作方式
+- [x] 比對本地 checkpoint 與 GitHub main commit
+- [x] 檢查最新 Pages workflow 與部署 artifact
+- [x] 直接比對公開網站 HTML、資產與版本資訊
+- [x] 修正未同步或快取問題並重新部署
+- [x] 回報可驗證的最新網址與操作方式
+
+# 單字卡文字與發音按鈕分離
+
+- [ ] 檢查目前 word-footer 與 audio-actions 結構
+- [ ] 將單字文字區與發音按鈕區拆成獨立 div
+- [ ] 驗證中文按鈕與 apple／蘋果排版不黏連
+- [ ] 執行 check、build 與手機版預覽
+- [ ] 保存並同步修正版
