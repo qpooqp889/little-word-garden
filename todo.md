@@ -84,3 +84,13 @@
 - [x] 將 10 張插圖 URL 寫回 words.json
 - [x] 驗證統計、設定、語音音效與圖片呈現
 - [x] 同步 GitHub Pages 並保存交付版本
+
+# 學習報告、每日目標與 Food／Animals 擴充
+
+- [x] 新增 Food 與 Animals 的單字、中文、雙語發音與圖片欄位
+- [ ] 生成 Food 與 Animals 專屬單字插圖並接入 JSON（Animals 已完成；Food 暫使用 emoji fallback）
+- [x] 在家長設定加入每日學習目標分鐘數
+- [x] 在首頁顯示當日目標達成進度條
+- [x] 建立可下載的學習報告，包含進度與統計圖表摘要
+- [x] 驗證下載內容、目標設定、新分類與圖片呈現
+- [x] 同步 GitHub Pages 並保存交付版本
