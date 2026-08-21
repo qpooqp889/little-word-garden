@@ -147,3 +147,70 @@
 - [x] 修正失效圖片路徑並保留 emoji fallback
 - [x] 驗證首次載入、目標達成與 GitHub Pages 圖片載入
 - [x] 保存並同步修正版
+
+# 圖片 fallback、最愛收藏與三分類插圖
+
+- [x] 為圖片載入失敗加入可愛佔位圖與提示文字
+- [x] 新增 favorites localStorage 與單字卡收藏按鈕
+- [x] 顯示已收藏狀態並提供收藏篩選或入口
+- [ ] 生成 Fruit、Food、Transport 的 15 張專屬單字插圖（本日圖片生成額度已用盡）
+- [ ] 上傳插圖並寫回 words.json 的 image 欄位（待圖片生成完成）
+- [x] 驗證圖片失敗 fallback、收藏與手機版卡片
+- [x] 同步 GitHub Pages 並保存交付版本
+
+# GitHub About 資訊更新
+
+- [x] 確認目前 GitHub 儲存庫描述、首頁與主題
+- [x] 更新專案描述與 GitHub Pages 首頁網址
+- [x] 加入適合專案的主題標籤
+- [x] 驗證 GitHub About 資訊已同步
+
+# 語音語言偏好
+
+- [x] 新增繁體中文／English 下拉選單，預設繁體中文
+- [x] 讓卡片點擊依目前語音偏好播放
+- [x] 將語音偏好保存至 localStorage 並在載入時恢復
+- [x] 驗證 EN／中按鈕仍可手動播放指定語言
+- [x] 驗證手機版下拉與卡片互動
+- [x] 保存並同步更新版本
+
+# 圖片 fallback 符號顯示調整
+
+- [x] 有 emoji／符號時隱藏 Picture coming soon 與圖片失敗圖示
+- [x] 沒有符號時保留預設佔位提示
+- [x] 驗證單字卡與聽音辨圖遊戲選項
+- [x] 保存並同步修正版
+
+# 語音設定與卡片按鈕 UI
+
+- [x] 在頁面最上方顯示語音設定開關與語言下拉
+- [x] 下拉預設繁體中文，第二選項 English，並保存偏好
+- [x] 卡片下方預設只顯示中文發音按鈕
+- [x] 切換 English 後顯示英文發音按鈕
+- [x] 將發音按鈕寬度統一為 100px
+- [x] 驗證卡片 UI、手機版與語音互動
+- [x] 保存並同步修正版
+
+# 最新版本 GitHub 與 GitHub Pages 同步
+
+- [x] 檢查本地變更、分支與遠端設定
+- [x] 提交並推送最新語音設定與卡片按鈕更新
+- [x] 確認 GitHub Actions Pages workflow 建置成功
+- [x] 確認 GitHub Pages 最新部署網址可載入
+- [x] 回報 GitHub 儲存庫與 Pages 連結
+
+# GitHub Pages Console 錯誤診斷
+
+- [x] 檢查 unload 事件與 Umami 分析設定來源
+- [x] 確認 Umami 請求是否為可選分析，不影響核心功能
+- [x] 修正可由專案控制的錯誤或移除不必要設定
+- [x] 執行檢查、建置與 Pages 相容性驗證
+- [x] 保存並同步修正版
+
+# GitHub Pages 最新版本未顯示診斷
+
+- [ ] 比對本地 checkpoint 與 GitHub main commit
+- [ ] 檢查最新 Pages workflow 與部署 artifact
+- [ ] 直接比對公開網站 HTML、資產與版本資訊
+- [ ] 修正未同步或快取問題並重新部署
+- [ ] 回報可驗證的最新網址與操作方式
