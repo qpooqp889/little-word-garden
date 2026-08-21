@@ -100,9 +100,9 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
 .voice-switch input:checked + i { background: #8dbca0; }
 .voice-switch input:checked + i::after { transform: translateX(1rem); }
 .voice-switch:focus-within { outline: 3px solid rgba(239, 179, 68, .35); outline-offset: 2px; }
-.language-button { width: 100px; min-width: 100px; justify-content: center; }
+.language-button { width: 200px; min-width: 200px; max-width: 100%; justify-content: center; box-sizing: border-box; }
 @media (max-width: 900px) { .topbar-note { display: none; } .topbar-voice-settings { margin-left: auto; } }
-@media (max-width: 640px) { .topbar-voice-settings { order: 4; width: 100%; justify-content: space-between; margin: .2rem 0 0; } .topbar { height: auto; min-height: 64px; flex-wrap: wrap; padding-top: 9px; padding-bottom: 9px; } .voice-select { flex: 1 1 auto; } .voice-select > span { display: inline; } .voice-switch { flex: 0 0 auto; } .voice-switch > span { display: none; } .language-button { width: 100px; min-width: 100px; } }
+@media (max-width: 640px) { .topbar-voice-settings { order: 4; width: 100%; justify-content: space-between; margin: .2rem 0 0; } .topbar { height: auto; min-height: 64px; flex-wrap: wrap; padding-top: 9px; padding-bottom: 9px; } .voice-select { flex: 1 1 auto; } .voice-select > span { display: inline; } .voice-switch { flex: 0 0 auto; } .voice-switch > span { display: none; } .language-button { width: 200px; min-width: 200px; max-width: 100%; } }
 
 /* Sunlit Storybook card footer: vocabulary copy and pronunciation controls are separate vertical regions. */
 .word-footer { display: flex; flex-direction: column; align-items: stretch; gap: .55rem; }
