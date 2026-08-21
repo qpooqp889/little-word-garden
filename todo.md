@@ -105,7 +105,7 @@
 
 # GitHub Pages 部署確認
 
-- [ ] 確認最新 main 分支已同步
-- [ ] 檢查 Pages workflow 最新執行結果
-- [ ] 確認 Pages 網址或指出必要啟用步驟
-- [ ] 回報部署狀態
+- [x] 確認最新 main 分支已同步
+- [x] 檢查 Pages workflow 最新執行結果
+- [x] 確認 Pages 網址或指出必要啟用步驟
+- [x] 回報部署狀態
