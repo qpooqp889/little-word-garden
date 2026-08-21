@@ -131,8 +131,19 @@
 
 # GitHub Pages 404 與 Home 首頁修正
 
-- [ ] 檢查專案頁 URL 與目前部署回應
-- [ ] 修正 Vite base、首頁資產路徑或 workflow 輸出
-- [ ] 確認 Home 在 `/little-word-garden/` 可載入
-- [ ] 重新建置、推送並驗證 Pages 部署
-- [ ] 保存並交付首頁修正版
+# GitHub Pages 404 與 Home 首頁修正
+
+- [x] 檢查專案頁 URL 與目前部署回應
+- [x] 修正 Vite base、首頁資產路徑或 workflow 輸出
+- [x] 確認 Home 在 `/little-word-garden/` 可載入（版本化網址已驗證）
+- [x] 重新建置、推送並驗證 Pages 部署
+- [x] 保存並交付首頁修正版
+
+# 首頁載入與圖片路徑修正
+
+- [x] 檢查每日達標慶祝 effect 是否在首次載入誤觸發
+- [x] 讓慶祝只在本次學習跨越目標時顯示
+- [x] 盤點 Home、分類代表圖與單字卡 image URL
+- [x] 修正失效圖片路徑並保留 emoji fallback
+- [x] 驗證首次載入、目標達成與 GitHub Pages 圖片載入
+- [x] 保存並同步修正版
