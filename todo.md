@@ -206,3 +206,11 @@
 - [x] 修正可由專案控制的錯誤或移除不必要設定
 - [x] 執行檢查、建置與 Pages 相容性驗證
 - [x] 保存並同步修正版
+
+# GitHub Pages 最新版本未顯示診斷
+
+- [x] 比對本地 checkpoint 與 GitHub main commit
+- [x] 檢查最新 Pages workflow 與部署 artifact
+- [x] 直接比對公開網站 HTML、資產與版本資訊
+- [x] 修正未同步或快取問題並重新部署
+- [x] 回報可驗證的最新網址與操作方式
