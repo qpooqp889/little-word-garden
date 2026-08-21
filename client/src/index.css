@@ -35,3 +35,27 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
 
 /* Daily goal and report controls: make parent actions visible without interrupting the child-first hero. */
 .daily-goal-mini { max-width: 300px; margin-top: 18px; padding: 10px 12px; border: 1px dashed #e5cf92; border-radius: 11px 14px 10px 13px; background: #fff8dfaa; }.daily-goal-mini > div:first-child { display: flex; align-items: center; justify-content: space-between; gap: 8px; color: #8d896f; font-size: 10px; font-weight: 900; }.daily-goal-mini strong { color: #d79339; }.daily-goal-mini .progress-track { height: 7px; margin-top: 7px; background: #f1e4bb; }.daily-goal-mini .progress-track i { background: linear-gradient(90deg, #f2bd4e, #e78a62); }.daily-goal-mini small { display: block; margin-top: 5px; color: #aa9c76; font-size: 9px; font-weight: 800; }.minutes-input { width: 66px; padding: 7px 8px; border: 1px solid #d7e5c8; border-radius: 8px; background: #fffef7; color: #53715b; font-weight: 900; text-align: center; }.report-button { width: 100%; margin-top: 12px; padding: 10px 12px; border: 0; border-radius: 9px 11px 8px 10px; background: #e4866f; color: #fffdf2; font-size: 11px; font-weight: 900; box-shadow: 0 3px 0 #c96e5b; transition: transform .16s ease, box-shadow .16s ease; }.report-button:hover { transform: translateY(-2px); box-shadow: 0 5px 0 #c96e5b; }.report-button:active { transform: translateY(1px); box-shadow: 0 1px 0 #c96e5b; }
+
+/* Sunlit Storybook additions: wrong-word stickers, fruit path, and full-screen daily-goal celebration. */
+.wrong-book-card { background: #fff4e8; }
+.wrong-word-chips { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0.8rem 0 1rem; }
+.wrong-word-chips span { display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.42rem 0.65rem; border-radius: 999px; background: #fffdf3; color: #a75e51; font-weight: 700; font-size: 0.78rem; box-shadow: 0 2px 0 rgba(177, 112, 82, 0.1); }
+.empty-wrong-book { color: #7f8e7a; margin: 0.6rem 0 0; }
+.review-button, .review-mode-pill { display: inline-flex; align-items: center; gap: 0.45rem; border: 0; border-radius: 999px; padding: 0.7rem 0.95rem; background: #df7764; color: #fffdf3; font: inherit; font-weight: 800; transition: transform 160ms var(--ease-out, cubic-bezier(.23,1,.32,1)), box-shadow 160ms ease; }
+.review-button:hover, .review-mode-pill:hover { transform: translateY(-2px); box-shadow: 0 5px 0 rgba(164, 78, 66, 0.14); }
+.review-mode-pill { background: #a7cbb2; color: #315a4c; padding: 0.62rem 0.85rem; }
+.goal-celebration { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; overflow: hidden; background: rgba(255, 244, 194, 0.86); backdrop-filter: blur(8px); animation: celebration-in 260ms var(--ease-out, cubic-bezier(.23,1,.32,1)); }
+.celebration-card { position: relative; z-index: 2; width: min(88vw, 430px); padding: 2.1rem 2rem 1.8rem; text-align: center; background: #fffdf3; border: 2px solid #f0c45a; border-radius: 30px; box-shadow: 0 20px 0 rgba(221, 170, 56, 0.18), 0 30px 60px rgba(130, 104, 46, 0.16); }
+.celebration-mascot { font-size: 4rem; animation: mascot-bounce 700ms var(--ease-out, cubic-bezier(.23,1,.32,1)) infinite alternate; }
+.celebration-card h2 { margin: 0.25rem 0 0.35rem; color: #3f5d4e; font-size: clamp(2rem, 8vw, 3.2rem); line-height: 0.95; }
+.celebration-card > p:not(.eyebrow) { color: #7b8b7b; margin: 0.6rem 0 1.3rem; }
+.celebration-card button { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.82rem 1.15rem; border: 0; border-radius: 999px; background: #efb344; color: #5c4827; font: inherit; font-weight: 800; }
+.confetti { position: absolute; top: -12vh; width: 14px; height: 30px; border-radius: 5px; opacity: 0.9; animation: confetti-fall 2.8s linear infinite; }
+.confetti-a { left: 18%; background: #df7764; transform: rotate(18deg); }
+.confetti-b { left: 52%; background: #8dbca0; animation-delay: 0.45s; transform: rotate(-24deg); }
+.confetti-c { left: 80%; background: #efb344; animation-delay: 0.9s; transform: rotate(34deg); }
+@keyframes celebration-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes mascot-bounce { from { transform: translateY(0) rotate(-4deg); } to { transform: translateY(-12px) rotate(4deg); } }
+@keyframes confetti-fall { from { transform: translateY(-10vh) rotate(0deg); } to { transform: translateY(120vh) rotate(540deg); } }
+@media (prefers-reduced-motion: reduce) { .goal-celebration, .celebration-mascot, .confetti { animation: none; } }
+@media (max-width: 640px) { .celebration-card { padding: 1.7rem 1.2rem 1.35rem; } .celebration-card h2 { font-size: 2.35rem; } .wrong-word-chips span { font-size: 0.72rem; } }
