@@ -190,3 +190,11 @@
 - [x] 將發音按鈕寬度統一為 100px
 - [x] 驗證卡片 UI、手機版與語音互動
 - [x] 保存並同步修正版
+
+# 最新版本 GitHub 與 GitHub Pages 同步
+
+- [ ] 檢查本地變更、分支與遠端設定
+- [ ] 提交並推送最新語音設定與卡片按鈕更新
+- [ ] 確認 GitHub Actions Pages workflow 建置成功
+- [ ] 確認 GitHub Pages 最新部署網址可載入
+- [ ] 回報 GitHub 儲存庫與 Pages 連結
