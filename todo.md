@@ -131,8 +131,8 @@
 
 # GitHub Pages 404 與 Home 首頁修正
 
-- [ ] 檢查專案頁 URL 與目前部署回應
-- [ ] 修正 Vite base、首頁資產路徑或 workflow 輸出
-- [ ] 確認 Home 在 `/little-word-garden/` 可載入
-- [ ] 重新建置、推送並驗證 Pages 部署
-- [ ] 保存並交付首頁修正版
+- [x] 檢查專案頁 URL 與目前部署回應
+- [x] 修正 Vite base、首頁資產路徑或 workflow 輸出
+- [x] 確認 Home 在 `/little-word-garden/` 可載入（版本化網址已驗證）
+- [x] 重新建置、推送並驗證 Pages 部署
+- [x] 保存並交付首頁修正版
