@@ -193,8 +193,8 @@
 
 # 最新版本 GitHub 與 GitHub Pages 同步
 
-- [ ] 檢查本地變更、分支與遠端設定
-- [ ] 提交並推送最新語音設定與卡片按鈕更新
-- [ ] 確認 GitHub Actions Pages workflow 建置成功
-- [ ] 確認 GitHub Pages 最新部署網址可載入
-- [ ] 回報 GitHub 儲存庫與 Pages 連結
+- [x] 檢查本地變更、分支與遠端設定
+- [x] 提交並推送最新語音設定與卡片按鈕更新
+- [x] 確認 GitHub Actions Pages workflow 建置成功
+- [x] 確認 GitHub Pages 最新部署網址可載入
+- [x] 回報 GitHub 儲存庫與 Pages 連結
