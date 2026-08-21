@@ -6,7 +6,7 @@ Little Word Garden 是一個為 **2–6 歲幼兒**設計的英文學習卡片�
 
 | 功能 | 說明 |
 | --- | --- |
-| 65 組英文單字 | 涵蓋 Animals、Food、Transport、Nature & Home、Colors、Numbers、Shapes。 |
+| 75 組英文單字 | 涵蓋 Animals、Food、Transport、Nature & Home、Colors、Numbers、Shapes、Body Parts、Clothes。 |
 | 雙語發音 | 每張卡片提供 EN 與中文兩個獨立按鈕；沒有音檔時使用瀏覽器 Speech Synthesis。 |
 | 分類自動播放 | 依目前分類自動輪播並朗讀單字，可隨時暫停。 |
 | 卡片互動 | 點擊圖片會產生彈跳、旋轉與星光效果。 |
@@ -21,7 +21,7 @@ Little Word Garden 是一個為 **2–6 歲幼兒**設計的英文學習卡片�
 | 路徑 | 用途 |
 | --- | --- |
 | `client/src/pages/Home.tsx` | 首頁、單字卡、分類、自動播放與遊戲互動。 |
-| `client/src/data/words.json` | 目前 65 組單字資料。 |
+| `client/src/data/words.json` | 目前 75 組單字資料。 |
 | `client/src/data/word.schema.json` | 單字 JSON 欄位與分類規範。 |
 | `client/src/index.css` | Sunlit Storybook 視覺語言與響應式樣式。 |
 | `.github/workflows/deploy-pages.yml` | GitHub Pages 自動建置與部署流程。 |
