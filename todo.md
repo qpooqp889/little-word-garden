@@ -102,3 +102,10 @@
 - [x] 執行 JSON 唯一性檢查、pnpm check 與建置
 - [x] 驗證瀏覽器不再出現 duplicate key 警告
 - [x] 保存並同步修正版
+
+# GitHub Pages 部署確認
+
+- [ ] 確認最新 main 分支已同步
+- [ ] 檢查 Pages workflow 最新執行結果
+- [ ] 確認 Pages 網址或指出必要啟用步驟
+- [ ] 回報部署狀態
