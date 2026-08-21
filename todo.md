@@ -94,3 +94,11 @@
 - [x] 建立可下載的學習報告，包含進度與統計圖表摘要
 - [x] 驗證下載內容、目標設定、新分類與圖片呈現
 - [x] 同步 GitHub Pages 並保存交付版本
+
+# React duplicate key 修正
+
+- [x] 找出 words.json 全部重複 id
+- [x] 移除重複資料並保留完整圖片與 fallback 欄位
+- [x] 執行 JSON 唯一性檢查、pnpm check 與建置
+- [x] 驗證瀏覽器不再出現 duplicate key 警告
+- [x] 保存並同步修正版
