@@ -120,3 +120,11 @@
 - [x] 加入每日目標達成偵測、全螢幕彩帶動畫與特殊音效
 - [x] 驗證錯題、複習、分類與每日達標流程
 - [x] 同步 GitHub Pages 並保存交付版本
+
+# Transport duplicate key 修正
+
+- [x] 找出 transport-train 與 transport-boat 的所有重複資料
+- [x] 移除重複資料並保留最新欄位
+- [x] 執行全量 id 唯一性檢查、pnpm check 與建置
+- [x] 驗證瀏覽器不再出現 duplicate key 警告
+- [x] 同步 GitHub Pages 並保存修正版
