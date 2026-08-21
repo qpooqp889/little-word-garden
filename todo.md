@@ -56,3 +56,11 @@
 - [ ] 建立公開 little-word-garden 儲存庫並推送程式碼
 - [ ] 驗證 workflow、建置產物與 Pages 條件
 - [ ] 交付儲存庫連結與最後啟用步驟
+
+# README 與 Pages 發布說明
+
+- [ ] 新增 README.md，說明功能、技術架構與資料結構
+- [ ] 加入本機開發與 GitHub Pages 操作步驟
+- [ ] 推送 README 至公開 GitHub 儲存庫
+- [ ] 驗證 README 與 Pages workflow 可見
+- [ ] 交付儲存庫與最後發布確認步驟
