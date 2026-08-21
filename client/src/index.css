@@ -59,3 +59,24 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
 @keyframes confetti-fall { from { transform: translateY(-10vh) rotate(0deg); } to { transform: translateY(120vh) rotate(540deg); } }
 @media (prefers-reduced-motion: reduce) { .goal-celebration, .celebration-mascot, .confetti { animation: none; } }
 @media (max-width: 640px) { .celebration-card { padding: 1.7rem 1.2rem 1.35rem; } .celebration-card h2 { font-size: 2.35rem; } .wrong-word-chips span { font-size: 0.72rem; } }
+
+/* Sunlit Storybook additions: picture fallback and tiny favorite stickers keep every card friendly when assets are unavailable. */
+.image-fallback { display: flex; min-height: 100%; width: 100%; flex-direction: column; align-items: center; justify-content: center; gap: .35rem; color: #7d8f79; background: radial-gradient(circle at 50% 35%, #fffdf1 0 22%, #f7eac7 23% 100%); text-align: center; }
+.image-fallback > span { font-size: clamp(3rem, 9vw, 5.2rem); line-height: 1; filter: drop-shadow(0 5px 0 rgba(211, 164, 80, .18)); }
+.image-fallback small { border-radius: 999px; background: #fffdf3; color: #8c8972; font-size: .68rem; font-weight: 700; padding: .28rem .55rem; box-shadow: 0 2px 0 rgba(94, 88, 54, .08); }
+.favorite-toggle { display: grid; place-items: center; border: 0; border-radius: 999px; width: 2rem; height: 2rem; margin-left: auto; color: #c7b99b; background: #fffaf0; transition: transform .16s cubic-bezier(.23,1,.32,1), color .16s ease, background .16s ease; }
+.favorite-toggle:hover, .favorite-toggle.is-favorite { color: #df7764; background: #ffe4d8; transform: scale(1.08) rotate(-6deg); }
+.favorites-filter { display: inline-flex; align-items: center; gap: .38rem; border: 1px solid #e6d8af; border-radius: 999px; padding: .62rem .8rem; background: #fffaf0; color: #71806d; font: inherit; font-size: .8rem; font-weight: 800; white-space: nowrap; }
+.favorites-filter span { min-width: 1.25rem; border-radius: 999px; padding: .1rem .35rem; background: #f3e5b8; color: #9b792f; text-align: center; }
+.favorites-filter.is-active { color: #b84f55; background: #ffe5dc; border-color: #f4b8aa; }
+.cards-tools { display: flex; align-items: center; gap: .65rem; }
+.game-image { display: block; width: 100%; height: 100%; border-radius: 1.1rem; object-fit: cover; }
+@media (max-width: 640px) {
+  .cards-tools { width: 100%; justify-content: space-between; }
+  .cards-tools .search-box { flex: 1; min-width: 0; }
+  .favorites-filter { padding: .58rem .7rem; }
+  .favorite-toggle { width: 2.25rem; height: 2.25rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .favorite-toggle { transition: none; }
+}

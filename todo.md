@@ -147,3 +147,13 @@
 - [x] 修正失效圖片路徑並保留 emoji fallback
 - [x] 驗證首次載入、目標達成與 GitHub Pages 圖片載入
 - [x] 保存並同步修正版
+
+# 圖片 fallback、最愛收藏與三分類插圖
+
+- [x] 為圖片載入失敗加入可愛佔位圖與提示文字
+- [x] 新增 favorites localStorage 與單字卡收藏按鈕
+- [x] 顯示已收藏狀態並提供收藏篩選或入口
+- [ ] 生成 Fruit、Food、Transport 的 15 張專屬單字插圖（本日圖片生成額度已用盡）
+- [ ] 上傳插圖並寫回 words.json 的 image 欄位（待圖片生成完成）
+- [x] 驗證圖片失敗 fallback、收藏與手機版卡片
+- [x] 同步 GitHub Pages 並保存交付版本
