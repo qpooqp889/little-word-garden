@@ -198,3 +198,11 @@
 - [x] 確認 GitHub Actions Pages workflow 建置成功
 - [x] 確認 GitHub Pages 最新部署網址可載入
 - [x] 回報 GitHub 儲存庫與 Pages 連結
+
+# GitHub Pages Console 錯誤診斷
+
+- [x] 檢查 unload 事件與 Umami 分析設定來源
+- [x] 確認 Umami 請求是否為可選分析，不影響核心功能
+- [x] 修正可由專案控制的錯誤或移除不必要設定
+- [x] 執行檢查、建置與 Pages 相容性驗證
+- [x] 保存並同步修正版
