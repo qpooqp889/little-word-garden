@@ -90,3 +90,16 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
   .voice-select > span { display: none; }
   .voice-select select { font-size: .76rem; }
 }
+
+/* Sunlit Storybook voice controls: settings stay visible at the top; Chinese is the calm default and English appears only when requested. */
+.topbar-voice-settings { display: inline-flex; align-items: center; gap: .5rem; margin-left: auto; }
+.voice-switch { display: inline-flex; align-items: center; gap: .45rem; min-height: 2.55rem; padding: .3rem .55rem .3rem .72rem; border: 1px solid #e6d8af; border-radius: 999px; background: #fffaf0; color: #7f876f; font-size: .73rem; font-weight: 800; white-space: nowrap; cursor: pointer; }
+.voice-switch input { position: absolute; opacity: 0; pointer-events: none; }
+.voice-switch i { position: relative; display: block; width: 2.25rem; height: 1.25rem; border-radius: 999px; background: #dccfae; transition: background .18s ease; }
+.voice-switch i::after { content: ''; position: absolute; top: .16rem; left: .16rem; width: .93rem; height: .93rem; border-radius: 50%; background: #fffdf3; box-shadow: 0 1px 3px rgba(80, 72, 40, .2); transition: transform .18s cubic-bezier(.23,1,.32,1); }
+.voice-switch input:checked + i { background: #8dbca0; }
+.voice-switch input:checked + i::after { transform: translateX(1rem); }
+.voice-switch:focus-within { outline: 3px solid rgba(239, 179, 68, .35); outline-offset: 2px; }
+.language-button { width: 100px; min-width: 100px; justify-content: center; }
+@media (max-width: 900px) { .topbar-note { display: none; } .topbar-voice-settings { margin-left: auto; } }
+@media (max-width: 640px) { .topbar-voice-settings { order: 4; width: 100%; justify-content: space-between; margin: .2rem 0 0; } .topbar { height: auto; min-height: 64px; flex-wrap: wrap; padding-top: 9px; padding-bottom: 9px; } .voice-select { flex: 1 1 auto; } .voice-select > span { display: inline; } .voice-switch { flex: 0 0 auto; } .voice-switch > span { display: none; } .language-button { width: 100px; min-width: 100px; } }
