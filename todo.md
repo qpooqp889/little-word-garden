@@ -59,8 +59,8 @@
 
 # README 與 Pages 發布說明
 
-- [ ] 新增 README.md，說明功能、技術架構與資料結構
-- [ ] 加入本機開發與 GitHub Pages 操作步驟
-- [ ] 推送 README 至公開 GitHub 儲存庫
-- [ ] 驗證 README 與 Pages workflow 可見
-- [ ] 交付儲存庫與最後發布確認步驟
+- [x] 新增 README.md，說明功能、技術架構與資料結構
+- [x] 加入本機開發與 GitHub Pages 操作步驟
+- [x] 推送 README 至公開 GitHub 儲存庫
+- [x] 驗證 README 與 Pages workflow 可見
+- [x] 交付儲存庫與最後發布確認步驟
