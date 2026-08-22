@@ -125,3 +125,12 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
 @media (max-width: 760px) {
   .category-count { flex: 0 0 auto; }
 }
+
+/* Sunlit Storybook pagination: a calm, tactile pause between small sets of cards. */
+.pagination { display: flex; align-items: center; justify-content: center; gap: 14px; margin: 30px 0 4px; color: #849187; font-size: 13px; font-weight: 800; }
+.pagination > span { min-width: 98px; text-align: center; }
+.pagination strong { color: #587263; font-family: 'Fredoka'; font-size: 16px; }
+.page-button { min-width: 92px; padding: 9px 13px; border: 1px solid #e8d9c3; border-radius: 11px 13px 10px 12px; background: #fffdf7; color: #607668; font-size: 12px; font-weight: 900; box-shadow: 0 3px 0 #eadfcb; transition: transform .16s, background .16s, opacity .16s; }
+.page-button:not(:disabled):hover { transform: translateY(-2px); background: #fff1cc; }
+.page-button:disabled { cursor: not-allowed; opacity: .42; box-shadow: 0 2px 0 #eadfcb; }
+@media (max-width: 480px) { .pagination { gap: 8px; margin-top: 24px; } .page-button { min-width: 84px; padding-inline: 8px; } .pagination > span { min-width: 82px; font-size: 12px; } }
