@@ -116,3 +116,12 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
   .word-card { width: 100%; }
   .language-button { width: 200px; min-width: 200px; max-width: 100%; }
 }
+
+/* Sunlit Storybook category filter: visible counts make every learning path easy to choose. */
+.category-button { position: relative; }
+.category-label { min-width: 0; flex: 1; }
+.category-count { min-width: 22px; padding: 2px 5px; border-radius: 999px; background: #fffdf7; color: #a5a99e; font-size: 10px; line-height: 1.2; text-align: center; font-weight: 900; }
+.category-button.active .category-count { background: #f6d98a; color: #765d2d; }
+@media (max-width: 760px) {
+  .category-count { flex: 0 0 auto; }
+}
