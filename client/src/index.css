@@ -134,3 +134,6 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
 .page-button:not(:disabled):hover { transform: translateY(-2px); background: #fff1cc; }
 .page-button:disabled { cursor: not-allowed; opacity: .42; box-shadow: 0 2px 0 #eadfcb; }
 @media (max-width: 480px) { .pagination { gap: 8px; margin-top: 24px; } .page-button { min-width: 84px; padding-inline: 8px; } .pagination > span { min-width: 82px; font-size: 12px; } }
+
+/* Sunlit Storybook pagination scroll target: leave room below the sticky topbar. */
+.cards-area { scroll-margin-top: 102px; }
