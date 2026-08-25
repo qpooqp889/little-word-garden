@@ -116,3 +116,224 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
   .word-card { width: 100%; }
   .language-button { width: 200px; min-width: 200px; max-width: 100%; }
 }
+
+/* Sunlit Storybook category filter: visible counts make every learning path easy to choose. */
+.category-button { position: relative; }
+.category-label { min-width: 0; flex: 1; }
+.category-count { min-width: 22px; padding: 2px 5px; border-radius: 999px; background: #fffdf7; color: #a5a99e; font-size: 10px; line-height: 1.2; text-align: center; font-weight: 900; }
+.category-button.active .category-count { background: #f6d98a; color: #765d2d; }
+@media (max-width: 760px) {
+  .category-count { flex: 0 0 auto; }
+}
+
+/* Sunlit Storybook pagination: a calm, tactile pause between small sets of cards. */
+.pagination { display: flex; align-items: center; justify-content: center; gap: 14px; margin: 30px 0 4px; color: #849187; font-size: 13px; font-weight: 800; }
+.pagination > span { min-width: 98px; text-align: center; }
+.pagination strong { color: #587263; font-family: 'Fredoka'; font-size: 16px; }
+.page-button { min-width: 92px; padding: 9px 13px; border: 1px solid #e8d9c3; border-radius: 11px 13px 10px 12px; background: #fffdf7; color: #607668; font-size: 12px; font-weight: 900; box-shadow: 0 3px 0 #eadfcb; transition: transform .16s, background .16s, opacity .16s; }
+.page-button:not(:disabled):hover { transform: translateY(-2px); background: #fff1cc; }
+.page-button:disabled { cursor: not-allowed; opacity: .42; box-shadow: 0 2px 0 #eadfcb; }
+@media (max-width: 480px) { .pagination { gap: 8px; margin-top: 24px; } .page-button { min-width: 84px; padding-inline: 8px; } .pagination > span { min-width: 82px; font-size: 12px; } }
+
+/* Sunlit Storybook pagination scroll target: leave room below the sticky topbar. */
+.cards-area { scroll-margin-top: 102px; }
+
+/* Sunlit Storybook voice practice: a warm listening nook with one clear action at a time. */
+.voice-practice-panel { position: relative; margin: 22px 0 26px; padding: 24px; overflow: hidden; border: 1px solid #eadfbe; border-radius: 22px 18px 24px 16px; background: linear-gradient(135deg, #fff9df, #fffdf4 58%, #eef7e9); box-shadow: 0 12px 24px rgba(112, 104, 70, .09); }
+.voice-practice-panel::after { content: "✦  ✧  ✦"; position: absolute; right: 22px; top: 16px; color: #efb344; letter-spacing: 7px; opacity: .7; }
+.voice-practice-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; max-width: 720px; margin: 0 auto; }
+.voice-practice-heading h2 { margin: 3px 0 5px; color: #385749; font-family: "Fredoka", sans-serif; font-size: clamp(24px, 4vw, 34px); }
+.voice-practice-heading p { max-width: 560px; margin: 0; color: #718077; font-size: 14px; line-height: 1.65; }
+.voice-practice-close { display: inline-grid; place-items: center; flex: 0 0 auto; width: 36px; height: 36px; border: 1px solid #e9d9ba; border-radius: 50%; background: #fffdf7; color: #6b7b70; }
+.voice-practice-controls { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 18px auto 14px; color: #748277; font-size: 13px; font-weight: 800; }
+.voice-practice-controls button { min-width: 106px; padding: 9px 14px; border: 1px solid #eadcc2; border-radius: 999px; background: #fffdf7; color: #6a7c70; font-weight: 900; transition: transform .16s, background .16s, color .16s; }
+.voice-practice-controls button:hover { transform: translateY(-2px); }
+.voice-practice-controls button.selected { border-color: #e7ad46; background: #f5b94f; color: #fffdf1; box-shadow: 0 3px 0 #d89435; }
+.voice-practice-card { max-width: 360px; margin: 0 auto; padding: 14px 16px 18px; text-align: center; border: 1px solid #eee2c6; border-radius: 18px 22px 16px 20px; background: rgba(255, 255, 255, .8); }
+.voice-practice-count { margin-bottom: 10px; color: #9a9e85; font-size: 11px; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; }
+.voice-practice-image { display: block; width: min(100%, 250px); height: 180px; margin: 0 auto 13px; object-fit: contain; border-radius: 15px; background: #fff1c9; }
+.voice-practice-card .image-fallback { display: grid; place-items: center; width: min(100%, 250px); height: 180px; margin: 0 auto 13px; font-size: 72px; }
+.voice-practice-prompt { min-height: 24px; margin: 0 0 14px; color: #587063; font-size: 14px; font-weight: 900; }
+.voice-record-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: min(100%, 220px); min-height: 50px; border: 0; border-radius: 15px 12px 16px 11px; background: #e27b68; color: #fffdf7; font-size: 15px; font-weight: 900; box-shadow: 0 5px 0 #c96251; transition: transform .16s, background .16s, box-shadow .16s; }
+.voice-record-button:hover { background: #d96d5c; transform: translateY(-2px); }
+.voice-record-button:active { transform: translateY(2px); box-shadow: 0 2px 0 #c96251; }
+.voice-record-button.is-listening { background: #6aa184; box-shadow: 0 5px 0 #4e8067; animation: voice-pulse 1.2s ease-in-out infinite; }
+.voice-practice-status { min-height: 21px; margin-top: 13px; color: #7d8a81; font-size: 12px; line-height: 1.5; }
+.voice-practice-status.correct { color: #548768; font-weight: 900; }
+.voice-practice-status.try, .voice-practice-status.permission { color: #c36b51; font-weight: 800; }
+.voice-practice-status.unsupported { color: #9a7446; font-weight: 800; }
+@keyframes voice-pulse { 50% { transform: scale(1.03); } }
+@media (max-width: 640px) { .voice-practice-panel { padding: 20px 14px; } .voice-practice-heading p { font-size: 13px; } .voice-practice-panel::after { display: none; } }
+@media (prefers-reduced-motion: reduce) { .voice-record-button.is-listening { animation: none; } }
+
+/* Sunlit Storybook voice feedback: make listening visible and celebratory without distracting from the word. */
+.voice-listening-visual { display: flex; align-items: center; justify-content: center; gap: 12px; height: 48px; margin: -2px auto 10px; color: #6aa184; }
+.voice-mic-orb { display: grid; place-items: center; width: 44px; height: 44px; border: 3px solid #83b89a; border-radius: 50%; background: #eff8e9; color: #4f8a6e; box-shadow: 0 0 0 7px rgba(129, 185, 151, .12); animation: voice-mic-glow 1.05s ease-in-out infinite; }
+.voice-wave { display: flex; align-items: center; gap: 4px; width: 39px; height: 34px; }
+.voice-wave i { display: block; width: 5px; border-radius: 999px; background: currentColor; animation: voice-wave-bounce .72s ease-in-out infinite alternate; }
+.voice-wave i:nth-child(1) { height: 12px; animation-delay: -.36s; }
+.voice-wave i:nth-child(2) { height: 25px; animation-delay: -.18s; }
+.voice-wave i:nth-child(3) { height: 17px; animation-delay: -.04s; }
+.wave-left { justify-content: flex-end; }
+.wave-right { justify-content: flex-start; }
+.wave-right i:nth-child(1) { animation-delay: -.22s; }
+.wave-right i:nth-child(2) { animation-delay: -.4s; }
+.voice-hint-button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-width: 148px; min-height: 40px; margin-top: 10px; padding: 8px 14px; border: 1px solid #e4bd70; border-radius: 12px 10px 13px 11px; background: #fff5d6; color: #a66f2f; font-size: 13px; font-weight: 900; box-shadow: 0 3px 0 #ebd7a9; transition: transform .16s, background .16s; }
+.voice-hint-button span { color: #ba9670; font-size: 11px; font-weight: 700; }
+.voice-hint-button:hover { transform: translateY(-2px); background: #ffefc0; }
+.voice-streak-celebration { position: absolute; z-index: 2; top: 20px; left: 50%; display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 190px; padding: 13px 22px 14px; border: 1px solid #f0cf70; border-radius: 18px 15px 20px 14px; background: rgba(255, 249, 215, .97); color: #bb7c2e; box-shadow: 0 9px 20px rgba(180, 131, 46, .17); transform: translateX(-50%); animation: streak-pop .42s cubic-bezier(.23, 1, .32, 1) both; }
+.voice-streak-stars { display: flex; gap: 4px; color: #f2b83f; }
+.voice-streak-stars svg { animation: streak-star 1.1s ease-in-out both; }
+.voice-streak-stars svg:nth-child(2) { animation-delay: .07s; }
+.voice-streak-stars svg:nth-child(3) { animation-delay: .14s; }
+.voice-streak-stars svg:nth-child(4) { animation-delay: .21s; }
+.voice-streak-stars svg:nth-child(5) { animation-delay: .28s; }
+.voice-streak-celebration strong { font-family: "Fredoka", sans-serif; font-size: 18px; }
+.voice-streak-celebration > span { font-size: 12px; font-weight: 800; }
+@keyframes voice-wave-bounce { to { transform: scaleY(.42); opacity: .5; } }
+@keyframes voice-mic-glow { 50% { transform: scale(1.08); box-shadow: 0 0 0 12px rgba(129, 185, 151, .08); } }
+@keyframes streak-pop { from { opacity: 0; transform: translate(-50%, -10px) scale(.95); } to { opacity: 1; transform: translate(-50%, 0) scale(1); } }
+@keyframes streak-star { 0% { opacity: 0; transform: translateY(8px) rotate(-16deg) scale(.75); } 55% { opacity: 1; transform: translateY(-2px) rotate(8deg) scale(1.12); } 100% { opacity: 1; transform: translateY(0) rotate(0) scale(1); } }
+@media (max-width: 640px) { .voice-streak-celebration { top: 13px; min-width: 170px; padding-inline: 16px; } .voice-streak-celebration strong { font-size: 16px; } .voice-hint-button { flex-wrap: wrap; } }
+@media (prefers-reduced-motion: reduce) { .voice-mic-orb, .voice-wave i, .voice-streak-celebration, .voice-streak-stars svg { animation: none; } }
+
+/* Sunlit Storybook learning progress: a small, visible trail of words already practised. */
+.learning-progress { padding: 10px clamp(16px, 4vw, 54px) 12px; border-bottom: 1px solid rgba(226, 214, 182, .6); background: rgba(255, 253, 244, .88); }
+.learning-progress-label { display: flex; align-items: center; justify-content: space-between; max-width: 1180px; margin: 0 auto 6px; color: #75857a; font-size: 11px; font-weight: 900; letter-spacing: .03em; }
+.learning-progress-label strong { color: #5b7665; font-size: 12px; }
+.learning-progress-track { max-width: 1180px; height: 9px; margin: 0 auto; overflow: hidden; border: 1px solid #e9dbbb; border-radius: 999px; background: #fff4d5; }
+.learning-progress-track i { display: block; height: 100%; min-width: 0; border-radius: inherit; background: linear-gradient(90deg, #efb647, #7eae85); transition: width .35s cubic-bezier(.23, 1, .32, 1); }
+.voice-skip-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-width: 148px; min-height: 38px; margin-top: 10px; padding: 8px 13px; border: 1px dashed #d9c9ad; border-radius: 11px 13px 10px 12px; background: transparent; color: #879187; font-size: 12px; font-weight: 900; transition: transform .16s, border-color .16s, background .16s, color .16s; }
+.voice-skip-button span { color: #a9a79a; font-size: 10px; font-weight: 700; }
+.voice-skip-button:hover { transform: translateY(-2px); border-color: #c7a878; background: #fff9e8; color: #8d6b45; }
+@media (max-width: 640px) { .learning-progress { padding-inline: 16px; } .learning-progress-label { font-size: 10px; } .learning-progress-label strong { font-size: 11px; } .voice-skip-button { min-width: 138px; } }
+@media (prefers-reduced-motion: reduce) { .learning-progress-track i { transition: none; } }
+
+/* Sunlit Storybook review path and example cards: gentle scaffolding for repeat practice. */
+.category-button.review { background: #f5e7f4; color: #8a637f; }
+.category-button.review.active { background: #e9cfe4; color: #754d69; box-shadow: inset 0 -3px 0 #c997bc; }
+.category-button.review .category-count { background: #fff8fd; color: #996d8d; }
+.example-toggle { display: inline-flex; align-items: center; justify-content: center; gap: 5px; width: 100%; min-height: 32px; margin-top: 10px; padding: 6px 10px; border: 1px dashed #d9cbb0; border-radius: 10px 8px 11px 9px; background: #fffdf7; color: #7f8d81; font-size: 11px; font-weight: 900; transition: transform .16s, border-color .16s, background .16s, color .16s; }
+.example-toggle span { color: #b2a891; font-size: 10px; font-weight: 700; }
+.example-toggle:hover, .example-toggle.is-open { border-color: #ddb665; background: #fff5d8; color: #9d6e32; transform: translateY(-1px); }
+.example-panel { margin-top: 10px; padding: 10px 12px; border-left: 3px solid #efb647; border-radius: 4px 12px 12px 4px; background: #fff8df; color: #607469; text-align: left; animation: example-reveal .22s cubic-bezier(.23, 1, .32, 1) both; }
+.example-panel .example-label { display: block; margin-bottom: 5px; color: #ae7b34; font-size: 10px; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; }
+.example-panel p { margin: 3px 0; font-size: 12px; line-height: 1.45; }
+.progress-milestone-celebration { position: fixed; z-index: 80; inset: 0; display: grid; place-items: center; overflow: hidden; background: rgba(68, 82, 62, .42); backdrop-filter: blur(5px); animation: milestone-fade .25s ease-out both; }
+.milestone-card { position: relative; z-index: 2; width: min(88vw, 390px); padding: 30px 26px 27px; border: 3px solid #f1ca67; border-radius: 24px 19px 26px 18px; background: #fffdf2; color: #5c7466; text-align: center; box-shadow: 0 18px 40px rgba(45, 75, 54, .2); animation: milestone-pop .48s cubic-bezier(.23, 1, .32, 1) both; }
+.milestone-stars { display: flex; justify-content: center; gap: 5px; margin-bottom: 10px; color: #f2b83f; }
+.milestone-stars svg { animation: milestone-star .9s ease-out both; }
+.milestone-stars svg:nth-child(2) { animation-delay: .08s; }.milestone-stars svg:nth-child(3) { animation-delay: .16s; }.milestone-stars svg:nth-child(4) { animation-delay: .24s; }.milestone-stars svg:nth-child(5) { animation-delay: .32s; }
+.milestone-card h2 { margin: 4px 0 8px; color: #3c5c4c; font-family: "Fredoka", sans-serif; font-size: clamp(28px, 7vw, 40px); }
+.milestone-card > p:not(.eyebrow) { margin: 0 0 17px; color: #748378; font-size: 14px; }
+.milestone-card button { display: inline-flex; align-items: center; gap: 7px; padding: 11px 17px; border: 0; border-radius: 11px 9px 12px 10px; background: #efb647; color: #fffdf7; font-weight: 900; box-shadow: 0 4px 0 #d99834; }
+.milestone-confetti, .milestone-confetti::before, .milestone-confetti::after { position: absolute; z-index: 1; width: 12px; height: 42px; content: ""; border-radius: 4px; background: #efb647; animation: milestone-confetti 2.7s ease-in infinite; }
+.milestone-confetti-a { top: -46px; left: 18%; transform: rotate(18deg); }.milestone-confetti-a::before { top: 0; left: 120px; background: #e27b68; animation-delay: .25s; }.milestone-confetti-a::after { top: 0; left: 240px; background: #7eae85; animation-delay: .55s; }
+.milestone-confetti-b { top: -46px; left: 52%; background: #80b9c8; transform: rotate(-22deg); animation-delay: .8s; }.milestone-confetti-b::before { top: 0; left: -170px; background: #efb647; animation-delay: .35s; }.milestone-confetti-b::after { top: 0; left: 130px; background: #df9abd; animation-delay: 1s; }
+.milestone-confetti-c { top: -46px; left: 78%; background: #df9abd; transform: rotate(32deg); animation-delay: 1.1s; }
+@keyframes example-reveal { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes milestone-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes milestone-pop { from { opacity: 0; transform: translateY(15px) scale(.94); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes milestone-star { from { opacity: 0; transform: translateY(10px) rotate(-18deg) scale(.72); } to { opacity: 1; transform: translateY(0) rotate(0) scale(1); } }
+@keyframes milestone-confetti { 0% { opacity: 0; transform: translateY(-8vh) rotate(0); } 12% { opacity: 1; } 100% { opacity: 0; transform: translateY(110vh) rotate(460deg); } }
+@media (prefers-reduced-motion: reduce) { .example-panel, .progress-milestone-celebration, .milestone-card, .milestone-stars svg, .milestone-confetti, .milestone-confetti::before, .milestone-confetti::after { animation: none; } }
+@media (max-width: 640px) { .milestone-card { padding: 25px 20px 23px; } .example-panel p { font-size: 11px; } }
+
+/* Sunlit Storybook completion summary: celebrate the whole journey without losing the numbers. */
+.completion-summary-overlay { position: fixed; z-index: 85; inset: 0; display: grid; place-items: center; padding: 20px; background: rgba(55, 72, 58, .48); backdrop-filter: blur(6px); animation: milestone-fade .25s ease-out both; }
+.completion-summary-card { position: relative; width: min(92vw, 460px); padding: 25px 24px 23px; overflow: hidden; border: 3px solid #f0c55f; border-radius: 25px 18px 27px 19px; background: #fffdf3; color: #587063; text-align: center; box-shadow: 0 22px 50px rgba(50, 73, 57, .24); animation: milestone-pop .48s cubic-bezier(.23, 1, .32, 1) both; }
+.summary-confetti { margin-bottom: 2px; color: #e48873; font-size: 25px; letter-spacing: 8px; }
+.summary-trophy { font-size: 49px; line-height: 1; filter: drop-shadow(0 5px 0 rgba(222, 170, 54, .18)); }
+.completion-summary-card h2 { margin: 6px 0 5px; color: #3d5c4e; font-family: "Fredoka", sans-serif; font-size: clamp(30px, 8vw, 44px); }
+.summary-intro { margin: 0 auto 18px; color: #77867c; font-size: 14px; }
+.summary-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; margin: 0 auto 20px; }
+.summary-stats div { padding: 12px 7px 10px; border: 1px solid #eee0bc; border-radius: 13px 10px 14px 11px; background: #fff8df; }
+.summary-stats strong { display: block; color: #dc866e; font-family: "Fredoka", sans-serif; font-size: 29px; line-height: 1; }
+.summary-stats span { display: block; margin-top: 5px; color: #718176; font-size: 12px; font-weight: 900; }
+.completion-summary-card > button { display: inline-flex; align-items: center; gap: 7px; padding: 11px 18px; border: 0; border-radius: 11px 9px 12px 10px; background: #efb647; color: #fffdf7; font-weight: 900; box-shadow: 0 4px 0 #d99834; transition: transform .16s; }
+.completion-summary-card > button:hover { transform: translateY(-2px); }
+@media (max-width: 420px) { .completion-summary-overlay { padding: 14px; } .completion-summary-card { padding: 22px 16px 20px; } .summary-stats { gap: 6px; } .summary-stats strong { font-size: 25px; } .summary-stats span { font-size: 11px; } }
+@media (prefers-reduced-motion: reduce) { .completion-summary-overlay, .completion-summary-card { animation: none; } }
+
+/* Sunlit Storybook refinement: the word list should wander like a paper garden path, not read like a database. */
+.cards-area { position: relative; }
+.card-grid { align-items: start; }
+.word-card { position: relative; overflow: visible; border-color: #e9dcbf; box-shadow: 0 7px 0 rgba(218, 194, 145, .18), 0 14px 26px rgba(89, 104, 79, .08); }
+.word-card::after { position: absolute; right: 13px; top: -7px; width: 30px; height: 12px; border-top: 2px dashed rgba(216, 172, 91, .55); content: ""; transform: rotate(5deg); }
+.word-card.card-0 { background: #fffdf3; transform: rotate(-.45deg); }
+.word-card.card-1 { background: #fff8e6; transform: rotate(.35deg); }
+.word-card.card-2 { background: #f8fbef; transform: rotate(-.25deg); }
+.word-card.card-3 { background: #fff5f0; transform: rotate(.5deg); }
+.word-card.card-4 { background: #f2faf8; transform: rotate(-.35deg); }
+.word-card:hover { transform: translateY(-5px) rotate(0deg); }
+.card-marker { display: inline-flex; align-items: center; max-width: calc(100% - 42px); padding: 3px 7px; border: 1px dashed #decda8; border-radius: 8px 6px 8px 5px; background: rgba(255,255,255,.54); color: #8b947d; font-size: 9px; font-weight: 900; letter-spacing: .035em; line-height: 1.2; }
+.card-number { color: #b0a88d; font-size: 10px; font-weight: 900; }
+.picture-button { background: #fff2ca; box-shadow: inset 0 -3px 0 rgba(227, 191, 103, .22); }
+.vocab-image { transform: scale(1.04); transition: transform .24s cubic-bezier(.23, 1, .32, 1); }
+.picture-button:hover .vocab-image { transform: scale(1.1); }
+.audio-actions { align-items: center; }
+.language-button { position: relative; overflow: hidden; border: 2px solid #e6af3d; border-radius: 13px 10px 14px 11px; background: #f5ba4b; color: #614d2e; box-shadow: 0 4px 0 #d89a32, 0 8px 14px rgba(218, 157, 49, .14); font-weight: 950; transition: transform .16s cubic-bezier(.23, 1, .32, 1), box-shadow .16s, background .16s; }
+.language-button::after { position: absolute; right: 7px; top: 5px; width: 17px; height: 9px; border-top: 1px solid rgba(255,255,255,.62); border-radius: 50%; content: ""; transform: rotate(-13deg); }
+.language-button:hover { background: #fac65b; box-shadow: 0 5px 0 #d89a32, 0 10px 15px rgba(218, 157, 49, .17); transform: translateY(-2px) rotate(-.6deg); }
+.language-button:active { box-shadow: 0 2px 0 #d89a32; transform: translateY(2px); }
+.example-line { display: grid; grid-template-columns: 24px minmax(0, 1fr) 30px; align-items: center; gap: 6px; }
+.example-line p { min-width: 0; margin: 3px 0; }
+.example-language { color: #a47537; font-size: 10px; font-weight: 950; }
+.example-panel mark { padding: 1px 4px; border-radius: 5px; background: #ffe39a; color: #805d2d; font-weight: 950; }
+.example-speak { display: inline-grid; place-items: center; width: 28px; height: 28px; border: 1px solid #e0c57c; border-radius: 9px; background: #fffdf5; color: #b27b2f; transition: transform .16s, background .16s; }
+.example-speak:hover { background: #fff0be; transform: translateY(-2px); }
+@media (max-width: 640px) {
+  .word-card.card-0, .word-card.card-1, .word-card.card-2, .word-card.card-3, .word-card.card-4 { transform: rotate(0deg); }
+  .word-card.card-0 { transform: translateX(-1px) rotate(-.3deg); }.word-card.card-1 { transform: translateX(1px) rotate(.25deg); }.word-card.card-3 { transform: translateX(-1px) rotate(.28deg); }
+  .word-card:hover { transform: translateY(-3px) rotate(0deg); }
+  .card-marker { font-size: 8px; }
+  .language-button { min-height: 38px; }
+}
+@media (prefers-reduced-motion: reduce) { .vocab-image, .language-button, .example-speak { transition: none; } }
+
+/* Sunlit Storybook learning trail: daily practice becomes a small, visible garden path. */
+.learning-calendar { width: min(1180px, calc(100% - 40px)); margin: 16px auto 22px; padding: 17px 20px 15px; border: 1px dashed #e2cf9e; border-radius: 18px 14px 20px 15px; background: rgba(255, 253, 243, .82); box-shadow: 0 6px 0 rgba(224, 196, 133, .12); }
+.calendar-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.calendar-heading .eyebrow { margin: 0 0 3px; }
+.calendar-heading h2 { margin: 0; color: #405f50; font-family: "Fredoka", sans-serif; font-size: 22px; }
+.streak-badge { display: inline-flex; align-items: baseline; gap: 5px; padding: 7px 11px; border: 1px solid #f0d28a; border-radius: 11px 8px 12px 9px; background: #fff4c9; color: #96672e; }
+.streak-badge strong { color: #d7835f; font-family: "Fredoka", sans-serif; font-size: 23px; line-height: 1; }
+.streak-badge span { font-size: 11px; font-weight: 900; }
+.calendar-days { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 6px; margin-top: 14px; }
+.calendar-day { position: relative; display: grid; justify-items: center; gap: 2px; min-width: 0; padding: 7px 3px 6px; border: 1px solid #eee4c9; border-radius: 9px 7px 10px 8px; background: #fffdf6; color: #a1a79a; }
+.calendar-day span { overflow: hidden; max-width: 100%; font-size: 9px; font-weight: 900; text-overflow: ellipsis; }
+.calendar-day strong { color: #718173; font-family: "Fredoka", sans-serif; font-size: 16px; line-height: 1; }
+.calendar-day.is-active { border-color: #f0cf7a; background: #fff1bc; color: #b87a31; }
+.calendar-day.is-active strong { color: #9a682b; }
+.calendar-day.is-active i { position: absolute; right: 3px; top: -7px; color: #e89b61; font-size: 11px; font-style: normal; }
+.calendar-day.is-today { outline: 2px solid #d9896f; outline-offset: 2px; }
+.calendar-note { display: flex; justify-content: space-between; gap: 10px; margin: 11px 1px 0; color: #8d998d; font-size: 11px; font-weight: 800; }
+.calendar-note span { color: #d27e62; }
+.example-speak.is-listening { animation: mic-blink 1s ease-in-out infinite; background: #ffe39a; color: #d06d55; }
+.example-speech-feedback { margin-top: 7px; padding: 7px 9px; border-radius: 8px; font-size: 11px; font-weight: 800; line-height: 1.45; }
+.example-speech-feedback.listening { background: #fff1c4; color: #a17135; }
+.example-speech-feedback.correct { background: #eaf5dc; color: #52815d; }
+.example-speech-feedback.try { background: #fff0e8; color: #bb705d; }
+.example-speech-feedback.permission, .example-speech-feedback.unsupported { background: #f1edf8; color: #78628d; }
+.example-speech-feedback strong { font-family: "Fredoka", sans-serif; font-size: 15px; }
+.summary-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+.summary-actions button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; border-radius: 11px 8px 12px 9px; font-weight: 900; transition: transform .16s, box-shadow .16s; }
+.summary-review-button { padding: 9px 13px; border: 2px solid #e6af3d; background: #f5ba4b; color: #614d2e; box-shadow: 0 3px 0 #d89a32; }
+.summary-review-button span { font-size: 10px; opacity: .8; }
+.summary-explore-button { padding: 9px 13px; border: 1px solid #e6d3a8; background: #fffdf5; color: #718071; }
+.summary-actions button:hover:not(:disabled) { transform: translateY(-2px); }
+.summary-actions button:disabled { cursor: not-allowed; opacity: .55; }
+@media (max-width: 640px) {
+  .learning-calendar { width: calc(100% - 30px); margin-top: 12px; padding: 14px 11px 12px; }
+  .calendar-heading h2 { font-size: 19px; }
+  .calendar-days { gap: 3px; }
+  .calendar-day { padding: 6px 1px 5px; }
+  .calendar-day span { font-size: 7px; }
+  .calendar-day strong { font-size: 14px; }
+  .calendar-day.is-active i { right: 1px; font-size: 9px; }
+  .calendar-note { font-size: 10px; }
+  .example-line { grid-template-columns: 21px minmax(0, 1fr) 29px; gap: 4px; }
+  .summary-actions { align-items: stretch; flex-direction: column; }
+  .summary-actions button { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { .example-speak.is-listening { animation: none; } .summary-actions button { transition: none; } }
