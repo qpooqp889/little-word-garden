@@ -337,3 +337,32 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
   .summary-actions button { width: 100%; }
 }
 @media (prefers-reduced-motion: reduce) { .example-speak.is-listening { animation: none; } .summary-actions button { transition: none; } }
+
+/* Sunlit Storybook example controls: play the model, then try the sentence. */
+.example-line { grid-template-columns: 24px minmax(0, 1fr) 30px 30px; }
+.example-play, .example-speak { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; padding: 0; border: 1px solid #ead69e; border-radius: 8px 6px 9px 7px; color: #a87937; background: #fff8d8; transition: transform .16s, background .16s, color .16s; }
+.example-play:hover, .example-speak:hover { transform: translateY(-1px); color: #d06d55; background: #ffedb2; }
+.example-speak { border-color: #e7b56a; color: #ce7659; background: #fff0d1; }
+.example-speak.is-listening { color: #fffaf0; background: #d9896f; border-color: #c8705d; }
+@media (prefers-reduced-motion: reduce) { .example-play, .example-speak { transition: none; } }
+
+/* Sunlit Storybook sentence controls: one button plays the model, one button invites the child to speak. */
+.example-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 7px; }
+.example-rate-control { display: inline-flex; align-items: center; gap: 4px; color: #9a8767; font-size: 10px; font-weight: 900; }
+.example-rate-control select { min-height: 27px; padding: 3px 19px 3px 7px; border: 1px solid #e6d19c; border-radius: 7px; background: #fff8dc; color: #846a42; font: inherit; }
+.example-play.is-playing { color: #fffaf0; background: #d9896f; border-color: #c8705d; animation: example-play-pulse 1s ease-in-out infinite; }
+.example-sound-waves { display: inline-flex; align-items: center; justify-content: center; gap: 2px; height: 16px; }
+.example-sound-waves i { display: block; width: 2px; height: 7px; border-radius: 4px; background: currentColor; animation: example-wave 650ms ease-in-out infinite alternate; }
+.example-sound-waves i:nth-child(2) { height: 13px; animation-delay: 140ms; }
+.example-sound-waves i:nth-child(3) { height: 9px; animation-delay: 280ms; }
+@keyframes example-wave { from { transform: scaleY(.45); opacity: .65; } to { transform: scaleY(1); opacity: 1; } }
+@keyframes example-play-pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(217, 137, 111, .14); } 50% { box-shadow: 0 0 0 5px rgba(217, 137, 111, .12); } }
+@media (prefers-reduced-motion: reduce) { .example-play.is-playing, .example-sound-waves i { animation: none; } }
+
+/* Sunlit Storybook recording replay: the child's voice gets its own warm listening sticker. */
+.example-recording-note, .example-recording-error { display: flex; align-items: center; gap: 5px; margin-top: 7px; color: #a9784f; font-size: 11px; font-weight: 800; }
+.example-recording-error { color: #bd745f; }
+.example-recording-replay { display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; padding: 7px 10px; border: 1px dashed #dba86f; border-radius: 9px 7px 10px 8px; color: #9f6547; background: #fff1ce; font-size: 11px; font-weight: 900; transition: transform .16s, background .16s, box-shadow .16s; }
+.example-recording-replay span { color: #b18a68; font-size: 9px; font-weight: 800; }
+.example-recording-replay:hover, .example-recording-replay.is-playing { transform: translateY(-1px); background: #ffe5ae; box-shadow: 0 3px 0 rgba(198, 133, 72, .12); }
+@media (prefers-reduced-motion: reduce) { .example-recording-replay { transition: none; } }
