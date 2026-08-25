@@ -290,3 +290,50 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
   .language-button { min-height: 38px; }
 }
 @media (prefers-reduced-motion: reduce) { .vocab-image, .language-button, .example-speak { transition: none; } }
+
+/* Sunlit Storybook learning trail: daily practice becomes a small, visible garden path. */
+.learning-calendar { width: min(1180px, calc(100% - 40px)); margin: 16px auto 22px; padding: 17px 20px 15px; border: 1px dashed #e2cf9e; border-radius: 18px 14px 20px 15px; background: rgba(255, 253, 243, .82); box-shadow: 0 6px 0 rgba(224, 196, 133, .12); }
+.calendar-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.calendar-heading .eyebrow { margin: 0 0 3px; }
+.calendar-heading h2 { margin: 0; color: #405f50; font-family: "Fredoka", sans-serif; font-size: 22px; }
+.streak-badge { display: inline-flex; align-items: baseline; gap: 5px; padding: 7px 11px; border: 1px solid #f0d28a; border-radius: 11px 8px 12px 9px; background: #fff4c9; color: #96672e; }
+.streak-badge strong { color: #d7835f; font-family: "Fredoka", sans-serif; font-size: 23px; line-height: 1; }
+.streak-badge span { font-size: 11px; font-weight: 900; }
+.calendar-days { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 6px; margin-top: 14px; }
+.calendar-day { position: relative; display: grid; justify-items: center; gap: 2px; min-width: 0; padding: 7px 3px 6px; border: 1px solid #eee4c9; border-radius: 9px 7px 10px 8px; background: #fffdf6; color: #a1a79a; }
+.calendar-day span { overflow: hidden; max-width: 100%; font-size: 9px; font-weight: 900; text-overflow: ellipsis; }
+.calendar-day strong { color: #718173; font-family: "Fredoka", sans-serif; font-size: 16px; line-height: 1; }
+.calendar-day.is-active { border-color: #f0cf7a; background: #fff1bc; color: #b87a31; }
+.calendar-day.is-active strong { color: #9a682b; }
+.calendar-day.is-active i { position: absolute; right: 3px; top: -7px; color: #e89b61; font-size: 11px; font-style: normal; }
+.calendar-day.is-today { outline: 2px solid #d9896f; outline-offset: 2px; }
+.calendar-note { display: flex; justify-content: space-between; gap: 10px; margin: 11px 1px 0; color: #8d998d; font-size: 11px; font-weight: 800; }
+.calendar-note span { color: #d27e62; }
+.example-speak.is-listening { animation: mic-blink 1s ease-in-out infinite; background: #ffe39a; color: #d06d55; }
+.example-speech-feedback { margin-top: 7px; padding: 7px 9px; border-radius: 8px; font-size: 11px; font-weight: 800; line-height: 1.45; }
+.example-speech-feedback.listening { background: #fff1c4; color: #a17135; }
+.example-speech-feedback.correct { background: #eaf5dc; color: #52815d; }
+.example-speech-feedback.try { background: #fff0e8; color: #bb705d; }
+.example-speech-feedback.permission, .example-speech-feedback.unsupported { background: #f1edf8; color: #78628d; }
+.example-speech-feedback strong { font-family: "Fredoka", sans-serif; font-size: 15px; }
+.summary-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+.summary-actions button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; border-radius: 11px 8px 12px 9px; font-weight: 900; transition: transform .16s, box-shadow .16s; }
+.summary-review-button { padding: 9px 13px; border: 2px solid #e6af3d; background: #f5ba4b; color: #614d2e; box-shadow: 0 3px 0 #d89a32; }
+.summary-review-button span { font-size: 10px; opacity: .8; }
+.summary-explore-button { padding: 9px 13px; border: 1px solid #e6d3a8; background: #fffdf5; color: #718071; }
+.summary-actions button:hover:not(:disabled) { transform: translateY(-2px); }
+.summary-actions button:disabled { cursor: not-allowed; opacity: .55; }
+@media (max-width: 640px) {
+  .learning-calendar { width: calc(100% - 30px); margin-top: 12px; padding: 14px 11px 12px; }
+  .calendar-heading h2 { font-size: 19px; }
+  .calendar-days { gap: 3px; }
+  .calendar-day { padding: 6px 1px 5px; }
+  .calendar-day span { font-size: 7px; }
+  .calendar-day strong { font-size: 14px; }
+  .calendar-day.is-active i { right: 1px; font-size: 9px; }
+  .calendar-note { font-size: 10px; }
+  .example-line { grid-template-columns: 21px minmax(0, 1fr) 29px; gap: 4px; }
+  .summary-actions { align-items: stretch; flex-direction: column; }
+  .summary-actions button { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { .example-speak.is-listening { animation: none; } .summary-actions button { transition: none; } }
