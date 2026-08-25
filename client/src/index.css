@@ -337,3 +337,11 @@ button:focus-visible, input:focus-visible { outline: 3px solid #f6b84b; outline-
   .summary-actions button { width: 100%; }
 }
 @media (prefers-reduced-motion: reduce) { .example-speak.is-listening { animation: none; } .summary-actions button { transition: none; } }
+
+/* Sunlit Storybook example controls: play the model, then try the sentence. */
+.example-line { grid-template-columns: 24px minmax(0, 1fr) 30px 30px; }
+.example-play, .example-speak { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; padding: 0; border: 1px solid #ead69e; border-radius: 8px 6px 9px 7px; color: #a87937; background: #fff8d8; transition: transform .16s, background .16s, color .16s; }
+.example-play:hover, .example-speak:hover { transform: translateY(-1px); color: #d06d55; background: #ffedb2; }
+.example-speak { border-color: #e7b56a; color: #ce7659; background: #fff0d1; }
+.example-speak.is-listening { color: #fffaf0; background: #d9896f; border-color: #c8705d; }
+@media (prefers-reduced-motion: reduce) { .example-play, .example-speak { transition: none; } }
