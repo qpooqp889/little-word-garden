@@ -385,13 +385,13 @@
   },
   {
     "id": "nature-star",
-    "word": "star",
-    "translation": "星星",
+    "word": "starlight",
+    "translation": "星光",
     "emoji": "⭐",
     "category": "Nature & Home",
     "image": null,
     "imagePosition": "50% 50%",
-    "imageAlt": "A yellow star",
+    "imageAlt": "Soft starlight",
     "englishAudio": null,
     "chineseAudio": null,
     "speech": {
@@ -513,13 +513,13 @@
   },
   {
     "id": "home-hat",
-    "word": "hat",
-    "translation": "帽子",
+    "word": "shelf",
+    "translation": "架子",
     "emoji": "🧢",
     "category": "Nature & Home",
     "image": null,
     "imagePosition": "50% 50%",
-    "imageAlt": "A blue cap",
+    "imageAlt": "A little shelf",
     "englishAudio": null,
     "chineseAudio": null,
     "speech": {
@@ -897,13 +897,13 @@
   },
   {
     "id": "shapes-heart",
-    "word": "heart",
+    "word": "heart shape",
     "translation": "心形",
     "emoji": "🧡",
     "category": "Shapes",
     "image": null,
     "imagePosition": "50% 50%",
-    "imageAlt": "An orange heart shape",
+    "imageAlt": "A bright heart shape",
     "englishAudio": null,
     "chineseAudio": null,
     "speech": {
@@ -1217,8 +1217,8 @@
   },
   {
     "id": "food-watermelon",
-    "word": "watermelon",
-    "translation": "西瓜",
+    "word": "watermelon slice",
+    "translation": "西瓜片",
     "emoji": "🍉",
     "category": "Food",
     "image": null,
@@ -3192,6 +3192,4806 @@
     "image": null,
     "imagePosition": "50% 50%",
     "imageAlt": "A shiny golden crown",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-alligator",
+    "word": "alligator",
+    "translation": "鱷魚",
+    "emoji": "🐊",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly alligator",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-ant",
+    "word": "ant",
+    "translation": "螞蟻",
+    "emoji": "🐜",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly ant",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-bee",
+    "word": "bee",
+    "translation": "蜜蜂",
+    "emoji": "🐝",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly bee",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-camel",
+    "word": "camel",
+    "translation": "駱駝",
+    "emoji": "🐫",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly camel",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-deer",
+    "word": "deer",
+    "translation": "鹿",
+    "emoji": "🦌",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly deer",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-dolphin",
+    "word": "dolphin",
+    "translation": "海豚",
+    "emoji": "🐬",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly dolphin",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-donkey",
+    "word": "donkey",
+    "translation": "驢子",
+    "emoji": "🫏",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly donkey",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-eagle",
+    "word": "eagle",
+    "translation": "老鷹",
+    "emoji": "🦅",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly eagle",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-fox",
+    "word": "fox",
+    "translation": "狐狸",
+    "emoji": "🦊",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly fox",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-giraffe",
+    "word": "giraffe",
+    "translation": "長頸鹿",
+    "emoji": "🦒",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly giraffe",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-gorilla",
+    "word": "gorilla",
+    "translation": "大猩猩",
+    "emoji": "🦍",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly gorilla",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-hamster",
+    "word": "hamster",
+    "translation": "倉鼠",
+    "emoji": "🐹",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly hamster",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-kangaroo",
+    "word": "kangaroo",
+    "translation": "袋鼠",
+    "emoji": "🦘",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly kangaroo",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-koala",
+    "word": "koala",
+    "translation": "無尾熊",
+    "emoji": "🐨",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly koala",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-ladybug",
+    "word": "ladybug",
+    "translation": "瓢蟲",
+    "emoji": "🐞",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly ladybug",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-leopard",
+    "word": "leopard",
+    "translation": "豹",
+    "emoji": "🐆",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly leopard",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-lizard",
+    "word": "lizard",
+    "translation": "蜥蜴",
+    "emoji": "🦎",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly lizard",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-owl",
+    "word": "owl",
+    "translation": "貓頭鷹",
+    "emoji": "🦉",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly owl",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-parrot",
+    "word": "parrot",
+    "translation": "鸚鵡",
+    "emoji": "🦜",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly parrot",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-peacock",
+    "word": "peacock",
+    "translation": "孔雀",
+    "emoji": "🦚",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly peacock",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-polar-bear",
+    "word": "polar bear",
+    "translation": "北極熊",
+    "emoji": "🐻‍❄️",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly polar bear",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-shark",
+    "word": "shark",
+    "translation": "鯊魚",
+    "emoji": "🦈",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly shark",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-snail",
+    "word": "snail",
+    "translation": "蝸牛",
+    "emoji": "🐌",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly snail",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-snake",
+    "word": "snake",
+    "translation": "蛇",
+    "emoji": "🐍",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly snake",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-spider",
+    "word": "spider",
+    "translation": "蜘蛛",
+    "emoji": "🕷️",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly spider",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-whale",
+    "word": "whale",
+    "translation": "鯨魚",
+    "emoji": "🐋",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly whale",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "animals-wolf",
+    "word": "wolf",
+    "translation": "狼",
+    "emoji": "🐺",
+    "category": "Animals",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly wolf",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-juice",
+    "word": "juice",
+    "translation": "果汁",
+    "emoji": "🧃",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly juice",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-tea",
+    "word": "tea",
+    "translation": "茶",
+    "emoji": "🍵",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly tea",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-water",
+    "word": "water",
+    "translation": "水",
+    "emoji": "💧",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly water",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-butter",
+    "word": "butter",
+    "translation": "奶油",
+    "emoji": "🧈",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly butter",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-jam",
+    "word": "jam",
+    "translation": "果醬",
+    "emoji": "🍓",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly jam",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-honey",
+    "word": "honey",
+    "translation": "蜂蜜",
+    "emoji": "🍯",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly honey",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-beans",
+    "word": "beans",
+    "translation": "豆子",
+    "emoji": "🫘",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly beans",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-mushroom",
+    "word": "mushroom",
+    "translation": "蘑菇",
+    "emoji": "🍄",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly mushroom",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-onion",
+    "word": "onion",
+    "translation": "洋蔥",
+    "emoji": "🧅",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly onion",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-tomato",
+    "word": "tomato",
+    "translation": "番茄",
+    "emoji": "🍅",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly tomato",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-cucumber",
+    "word": "cucumber",
+    "translation": "小黃瓜",
+    "emoji": "🥒",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cucumber",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-broccoli",
+    "word": "broccoli",
+    "translation": "花椰菜",
+    "emoji": "🥦",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly broccoli",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-peas",
+    "word": "peas",
+    "translation": "豌豆",
+    "emoji": "🫛",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly peas",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-pumpkin",
+    "word": "pumpkin",
+    "translation": "南瓜",
+    "emoji": "🎃",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly pumpkin",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-cereal",
+    "word": "cereal",
+    "translation": "早餐穀片",
+    "emoji": "🥣",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cereal",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-pancake",
+    "word": "pancake",
+    "translation": "鬆餅",
+    "emoji": "🥞",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly pancake",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-waffle",
+    "word": "waffle",
+    "translation": "格子鬆餅",
+    "emoji": "🧇",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly waffle",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-ice-cream",
+    "word": "ice cream",
+    "translation": "冰淇淋",
+    "emoji": "🍦",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly ice cream",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-candy",
+    "word": "candy",
+    "translation": "糖果",
+    "emoji": "🍬",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly candy",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-chocolate",
+    "word": "chocolate",
+    "translation": "巧克力",
+    "emoji": "🍫",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly chocolate",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-chips",
+    "word": "chips",
+    "translation": "洋芋片",
+    "emoji": "🍟",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly chips",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-cracker",
+    "word": "cracker",
+    "translation": "餅乾",
+    "emoji": "🍘",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cracker",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-pie",
+    "word": "pie",
+    "translation": "派",
+    "emoji": "🥧",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly pie",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-salt",
+    "word": "salt",
+    "translation": "鹽",
+    "emoji": "🧂",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly salt",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "food-sugar",
+    "word": "sugar",
+    "translation": "糖",
+    "emoji": "🍚",
+    "category": "Food",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sugar",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-apricot",
+    "word": "apricot",
+    "translation": "杏桃",
+    "emoji": "🍑",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly apricot",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-blackberry",
+    "word": "blackberry",
+    "translation": "黑莓",
+    "emoji": "🫐",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly blackberry",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-fig",
+    "word": "fig",
+    "translation": "無花果",
+    "emoji": "🫒",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly fig",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-guava",
+    "word": "guava",
+    "translation": "芭樂",
+    "emoji": "🍐",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly guava",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-grapefruit",
+    "word": "grapefruit",
+    "translation": "葡萄柚",
+    "emoji": "🍊",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly grapefruit",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-pomegranate",
+    "word": "pomegranate",
+    "translation": "石榴",
+    "emoji": "🔴",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly pomegranate",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-tangerine",
+    "word": "tangerine",
+    "translation": "橘子",
+    "emoji": "🍊",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly tangerine",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-clementine",
+    "word": "clementine",
+    "translation": "小柑橘",
+    "emoji": "🍊",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly clementine",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-nectarine",
+    "word": "nectarine",
+    "translation": "油桃",
+    "emoji": "🍑",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly nectarine",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-persimmon",
+    "word": "persimmon",
+    "translation": "柿子",
+    "emoji": "🟠",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly persimmon",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-cranberry",
+    "word": "cranberry",
+    "translation": "蔓越莓",
+    "emoji": "🔴",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cranberry",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-gooseberry",
+    "word": "gooseberry",
+    "translation": "醋栗",
+    "emoji": "🟢",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly gooseberry",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-passion-fruit",
+    "word": "passion fruit",
+    "translation": "百香果",
+    "emoji": "🟣",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly passion fruit",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-date",
+    "word": "date",
+    "translation": "椰棗",
+    "emoji": "🌴",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly date",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-starfruit",
+    "word": "starfruit",
+    "translation": "楊桃",
+    "emoji": "⭐",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly starfruit",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-mulberry",
+    "word": "mulberry",
+    "translation": "桑葚",
+    "emoji": "🫐",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly mulberry",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-plantain",
+    "word": "plantain",
+    "translation": "大蕉",
+    "emoji": "🍌",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly plantain",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-jackfruit",
+    "word": "jackfruit",
+    "translation": "菠蘿蜜",
+    "emoji": "🟡",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly jackfruit",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-durian",
+    "word": "durian",
+    "translation": "榴槤",
+    "emoji": "🟢",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly durian",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-lychee",
+    "word": "lychee",
+    "translation": "荔枝",
+    "emoji": "🔴",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly lychee",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-longan",
+    "word": "longan",
+    "translation": "龍眼",
+    "emoji": "🟤",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly longan",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-rambutan",
+    "word": "rambutan",
+    "translation": "紅毛丹",
+    "emoji": "🔴",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly rambutan",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-quince",
+    "word": "quince",
+    "translation": "榲桲",
+    "emoji": "🟡",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly quince",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-kumquat",
+    "word": "kumquat",
+    "translation": "金桔",
+    "emoji": "🟠",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly kumquat",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-currant",
+    "word": "currant",
+    "translation": "醋栗",
+    "emoji": "🔴",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly currant",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-elderberry",
+    "word": "elderberry",
+    "translation": "接骨木莓",
+    "emoji": "🫐",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly elderberry",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-boysenberry",
+    "word": "boysenberry",
+    "translation": "波森莓",
+    "emoji": "🫐",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly boysenberry",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-cloudberry",
+    "word": "cloudberry",
+    "translation": "雲莓",
+    "emoji": "🟠",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cloudberry",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-breadfruit",
+    "word": "breadfruit",
+    "translation": "麵包果",
+    "emoji": "🟢",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly breadfruit",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-sapodilla",
+    "word": "sapodilla",
+    "translation": "人心果",
+    "emoji": "🟤",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sapodilla",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-medlar",
+    "word": "medlar",
+    "translation": "歐楂果",
+    "emoji": "🟤",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly medlar",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-citron",
+    "word": "citron",
+    "translation": "香櫞",
+    "emoji": "🍋",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly citron",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "fruit-yuzu",
+    "word": "yuzu",
+    "translation": "柚子",
+    "emoji": "🍋",
+    "category": "Fruit",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly yuzu",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-subway",
+    "word": "subway",
+    "translation": "地鐵",
+    "emoji": "🚇",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly subway",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-metro",
+    "word": "metro",
+    "translation": "捷運",
+    "emoji": "🚇",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly metro",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-canoe",
+    "word": "canoe",
+    "translation": "獨木舟",
+    "emoji": "🛶",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly canoe",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-kayak",
+    "word": "kayak",
+    "translation": "皮划艇",
+    "emoji": "🛶",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly kayak",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-rowboat",
+    "word": "rowboat",
+    "translation": "划艇",
+    "emoji": "🚣",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly rowboat",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-speedboat",
+    "word": "speedboat",
+    "translation": "快艇",
+    "emoji": "🚤",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly speedboat",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-submarine",
+    "word": "submarine",
+    "translation": "潛水艇",
+    "emoji": "🛥️",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly submarine",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-moped",
+    "word": "moped",
+    "translation": "輕型摩托車",
+    "emoji": "🛵",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly moped",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-trolley",
+    "word": "trolley",
+    "translation": "電車",
+    "emoji": "🚎",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly trolley",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-cable-car",
+    "word": "cable car",
+    "translation": "纜車",
+    "emoji": "🚠",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cable car",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-gondola",
+    "word": "gondola",
+    "translation": "貢多拉船",
+    "emoji": "🚣",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly gondola",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-rickshaw",
+    "word": "rickshaw",
+    "translation": "人力車",
+    "emoji": "🛺",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly rickshaw",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-sled",
+    "word": "sled",
+    "translation": "雪橇",
+    "emoji": "🛷",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sled",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-sleigh",
+    "word": "sleigh",
+    "translation": "馬拉雪橇",
+    "emoji": "🛷",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sleigh",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-roller-skates",
+    "word": "roller skates",
+    "translation": "直排輪",
+    "emoji": "🛼",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly roller skates",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-skis",
+    "word": "skis",
+    "translation": "滑雪板",
+    "emoji": "🎿",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly skis",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-jet",
+    "word": "jet",
+    "translation": "噴射機",
+    "emoji": "✈️",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly jet",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-space-shuttle",
+    "word": "space shuttle",
+    "translation": "太空梭",
+    "emoji": "🚀",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly space shuttle",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-unicycle",
+    "word": "unicycle",
+    "translation": "獨輪車",
+    "emoji": "🚲",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly unicycle",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-tricycle",
+    "word": "tricycle",
+    "translation": "三輪車",
+    "emoji": "🚲",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly tricycle",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-carriage",
+    "word": "carriage",
+    "translation": "馬車",
+    "emoji": "🐎",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly carriage",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-wagon",
+    "word": "wagon",
+    "translation": "四輪車",
+    "emoji": "🛒",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly wagon",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-dump-truck",
+    "word": "dump truck",
+    "translation": "砂石車",
+    "emoji": "🚚",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly dump truck",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-garbage-truck",
+    "word": "garbage truck",
+    "translation": "垃圾車",
+    "emoji": "🚛",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly garbage truck",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-school-bus",
+    "word": "school bus",
+    "translation": "校車",
+    "emoji": "🚌",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly school bus",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "transport-tractor",
+    "word": "tractor",
+    "translation": "拖拉機",
+    "emoji": "🚜",
+    "category": "Transport",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly tractor",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-rainbow",
+    "word": "rainbow",
+    "translation": "彩虹",
+    "emoji": "🌈",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly rainbow",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-thunder",
+    "word": "thunder",
+    "translation": "雷聲",
+    "emoji": "🌩️",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly thunder",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-lightning",
+    "word": "lightning",
+    "translation": "閃電",
+    "emoji": "⚡",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly lightning",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-storm",
+    "word": "storm",
+    "translation": "暴風雨",
+    "emoji": "🌪️",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly storm",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-lake",
+    "word": "lake",
+    "translation": "湖",
+    "emoji": "🏞️",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly lake",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-pond",
+    "word": "pond",
+    "translation": "池塘",
+    "emoji": "🐸",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly pond",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-waterfall",
+    "word": "waterfall",
+    "translation": "瀑布",
+    "emoji": "🌊",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly waterfall",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-forest",
+    "word": "forest",
+    "translation": "森林",
+    "emoji": "🌲",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly forest",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-park",
+    "word": "park",
+    "translation": "公園",
+    "emoji": "🌳",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly park",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-sky",
+    "word": "sky",
+    "translation": "天空",
+    "emoji": "🌤️",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sky",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-earth",
+    "word": "earth",
+    "translation": "地球",
+    "emoji": "🌍",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly earth",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-fire",
+    "word": "fire",
+    "translation": "火",
+    "emoji": "🔥",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly fire",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-ice",
+    "word": "ice",
+    "translation": "冰",
+    "emoji": "🧊",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly ice",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-wave",
+    "word": "wave",
+    "translation": "波浪",
+    "emoji": "🌊",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly wave",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-shell",
+    "word": "shell",
+    "translation": "貝殼",
+    "emoji": "🐚",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly shell",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-rock",
+    "word": "rock",
+    "translation": "石頭",
+    "emoji": "🪨",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly rock",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-sand",
+    "word": "sand",
+    "translation": "沙子",
+    "emoji": "🏖️",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sand",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "nature-nest",
+    "word": "nest",
+    "translation": "鳥巢",
+    "emoji": "🪺",
+    "category": "Nature & Home",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly nest",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-turquoise",
+    "word": "turquoise",
+    "translation": "綠松石色",
+    "emoji": "🔹",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly turquoise",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-cyan",
+    "word": "cyan",
+    "translation": "青色",
+    "emoji": "🔵",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cyan",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-magenta",
+    "word": "magenta",
+    "translation": "洋紅色",
+    "emoji": "🟣",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly magenta",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-lavender",
+    "word": "lavender",
+    "translation": "薰衣草紫",
+    "emoji": "🪻",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly lavender",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-violet",
+    "word": "violet",
+    "translation": "紫羅蘭色",
+    "emoji": "🟣",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly violet",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-indigo",
+    "word": "indigo",
+    "translation": "靛藍色",
+    "emoji": "🔵",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly indigo",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-aqua",
+    "word": "aqua",
+    "translation": "水藍色",
+    "emoji": "💧",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly aqua",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-azure",
+    "word": "azure",
+    "translation": "蔚藍色",
+    "emoji": "🔷",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly azure",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-lime-green",
+    "word": "lime green",
+    "translation": "萊姆綠",
+    "emoji": "🟢",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly lime green",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-emerald",
+    "word": "emerald",
+    "translation": "祖母綠",
+    "emoji": "💚",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly emerald",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-jade",
+    "word": "jade",
+    "translation": "翡翠綠",
+    "emoji": "🟢",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly jade",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-mint",
+    "word": "mint",
+    "translation": "薄荷綠",
+    "emoji": "🌿",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly mint",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-ruby",
+    "word": "ruby",
+    "translation": "寶石紅",
+    "emoji": "🔴",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly ruby",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-rose",
+    "word": "rose",
+    "translation": "玫瑰色",
+    "emoji": "🌹",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly rose",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-peach-pink",
+    "word": "peach pink",
+    "translation": "蜜桃粉",
+    "emoji": "🍑",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly peach pink",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-tan",
+    "word": "tan",
+    "translation": "棕褐色",
+    "emoji": "🟫",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly tan",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-cream",
+    "word": "cream",
+    "translation": "奶油色",
+    "emoji": "🍦",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cream",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-ivory",
+    "word": "ivory",
+    "translation": "象牙白",
+    "emoji": "🤍",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly ivory",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-charcoal",
+    "word": "charcoal",
+    "translation": "炭灰色",
+    "emoji": "⚫",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly charcoal",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-maroon",
+    "word": "maroon",
+    "translation": "栗紅色",
+    "emoji": "🟥",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly maroon",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-crimson",
+    "word": "crimson",
+    "translation": "深紅色",
+    "emoji": "🔴",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly crimson",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-scarlet",
+    "word": "scarlet",
+    "translation": "猩紅色",
+    "emoji": "🟥",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly scarlet",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-amber",
+    "word": "amber",
+    "translation": "琥珀色",
+    "emoji": "🟠",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly amber",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-bronze",
+    "word": "bronze",
+    "translation": "青銅色",
+    "emoji": "🟤",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly bronze",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-copper",
+    "word": "copper",
+    "translation": "銅色",
+    "emoji": "🟤",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly copper",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-pearl",
+    "word": "pearl",
+    "translation": "珍珠色",
+    "emoji": "🤍",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly pearl",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-plum-purple",
+    "word": "plum purple",
+    "translation": "梅子紫",
+    "emoji": "🟣",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly plum purple",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-raspberry-pink",
+    "word": "raspberry pink",
+    "translation": "覆盆子粉",
+    "emoji": "🌺",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly raspberry pink",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-melon-green",
+    "word": "melon green",
+    "translation": "瓜綠色",
+    "emoji": "🟢",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly melon green",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-mustard",
+    "word": "mustard",
+    "translation": "芥末黃",
+    "emoji": "🟡",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly mustard",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-olive",
+    "word": "olive",
+    "translation": "橄欖綠",
+    "emoji": "🫒",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly olive",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-moss",
+    "word": "moss",
+    "translation": "苔蘚綠",
+    "emoji": "🌿",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly moss",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-forest-green",
+    "word": "forest green",
+    "translation": "森林綠",
+    "emoji": "🌲",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly forest green",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "colors-sky-blue",
+    "word": "sky blue",
+    "translation": "天空藍",
+    "emoji": "🌤️",
+    "category": "Colors",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sky blue",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-pentagon",
+    "word": "pentagon",
+    "translation": "五邊形",
+    "emoji": "⬟",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly pentagon",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-heptagon",
+    "word": "heptagon",
+    "translation": "七邊形",
+    "emoji": "⬢",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly heptagon",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-nonagon",
+    "word": "nonagon",
+    "translation": "九邊形",
+    "emoji": "🔹",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly nonagon",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-decagon",
+    "word": "decagon",
+    "translation": "十邊形",
+    "emoji": "🔟",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly decagon",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-trapezoid",
+    "word": "trapezoid",
+    "translation": "梯形",
+    "emoji": "▱",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly trapezoid",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-parallelogram",
+    "word": "parallelogram",
+    "translation": "平行四邊形",
+    "emoji": "▱",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly parallelogram",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-rhombus",
+    "word": "rhombus",
+    "translation": "菱形",
+    "emoji": "◆",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly rhombus",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-sphere",
+    "word": "sphere",
+    "translation": "球體",
+    "emoji": "⚽",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sphere",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-cylinder",
+    "word": "cylinder",
+    "translation": "圓柱體",
+    "emoji": "🥫",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cylinder",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-pyramid",
+    "word": "pyramid",
+    "translation": "金字塔",
+    "emoji": "🔺",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly pyramid",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-prism",
+    "word": "prism",
+    "translation": "柱體",
+    "emoji": "🔷",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly prism",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-torus",
+    "word": "torus",
+    "translation": "甜甜圈形",
+    "emoji": "🍩",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly torus",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-spiral",
+    "word": "spiral",
+    "translation": "螺旋形",
+    "emoji": "🌀",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly spiral",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-zigzag",
+    "word": "zigzag",
+    "translation": "鋸齒線",
+    "emoji": "〰️",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly zigzag",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-curve",
+    "word": "curve",
+    "translation": "曲線",
+    "emoji": "〰️",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly curve",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-arc",
+    "word": "arc",
+    "translation": "弧形",
+    "emoji": "⌒",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly arc",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-angle",
+    "word": "angle",
+    "translation": "角",
+    "emoji": "📐",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly angle",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-arrow",
+    "word": "arrow",
+    "translation": "箭頭",
+    "emoji": "➡️",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly arrow",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-plus-sign",
+    "word": "plus sign",
+    "translation": "加號",
+    "emoji": "➕",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly plus sign",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-minus-sign",
+    "word": "minus sign",
+    "translation": "減號",
+    "emoji": "➖",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly minus sign",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-wave-shape",
+    "word": "wave shape",
+    "translation": "波浪形",
+    "emoji": "🌊",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly wave shape",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-loop",
+    "word": "loop",
+    "translation": "圈圈",
+    "emoji": "➰",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly loop",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-ring-shape",
+    "word": "ring shape",
+    "translation": "圓環形",
+    "emoji": "⭕",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly ring shape",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-dot",
+    "word": "dot",
+    "translation": "點",
+    "emoji": "🔵",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly dot",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-teardrop",
+    "word": "teardrop",
+    "translation": "水滴形",
+    "emoji": "💧",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly teardrop",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-raindrop",
+    "word": "raindrop",
+    "translation": "雨滴形",
+    "emoji": "💧",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly raindrop",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-snowflake",
+    "word": "snowflake",
+    "translation": "雪花形",
+    "emoji": "❄️",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly snowflake",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-clover",
+    "word": "clover",
+    "translation": "四葉草形",
+    "emoji": "🍀",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly clover",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-cloud-shape",
+    "word": "cloud shape",
+    "translation": "雲朵形",
+    "emoji": "☁️",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cloud shape",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-leaf-shape",
+    "word": "leaf shape",
+    "translation": "葉子形",
+    "emoji": "🍃",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly leaf shape",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-footprint",
+    "word": "footprint",
+    "translation": "腳印形",
+    "emoji": "👣",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly footprint",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-starburst",
+    "word": "starburst",
+    "translation": "星芒形",
+    "emoji": "💥",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly starburst",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-gear",
+    "word": "gear",
+    "translation": "齒輪形",
+    "emoji": "⚙️",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly gear",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "shapes-checkerboard",
+    "word": "checkerboard",
+    "translation": "棋盤格",
+    "emoji": "▦",
+    "category": "Shapes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly checkerboard",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-face",
+    "word": "face",
+    "translation": "臉",
+    "emoji": "🙂",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly face",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-forehead",
+    "word": "forehead",
+    "translation": "額頭",
+    "emoji": "😊",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly forehead",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-eyebrows",
+    "word": "eyebrows",
+    "translation": "眉毛",
+    "emoji": "🤨",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly eyebrows",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-eyelashes",
+    "word": "eyelashes",
+    "translation": "睫毛",
+    "emoji": "👁️",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly eyelashes",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-cheeks",
+    "word": "cheeks",
+    "translation": "臉頰",
+    "emoji": "😊",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cheeks",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-chin",
+    "word": "chin",
+    "translation": "下巴",
+    "emoji": "🙂",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly chin",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-lips",
+    "word": "lips",
+    "translation": "嘴唇",
+    "emoji": "👄",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly lips",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-neck",
+    "word": "neck",
+    "translation": "脖子",
+    "emoji": "🧣",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly neck",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-shoulders",
+    "word": "shoulders",
+    "translation": "肩膀",
+    "emoji": "🙆",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly shoulders",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-elbows",
+    "word": "elbows",
+    "translation": "手肘",
+    "emoji": "💪",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly elbows",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-wrists",
+    "word": "wrists",
+    "translation": "手腕",
+    "emoji": "⌚",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly wrists",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-fingers",
+    "word": "fingers",
+    "translation": "手指",
+    "emoji": "🖐️",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly fingers",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-thumb",
+    "word": "thumb",
+    "translation": "拇指",
+    "emoji": "👍",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly thumb",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-palms",
+    "word": "palms",
+    "translation": "手掌",
+    "emoji": "🖐️",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly palms",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-nails",
+    "word": "nails",
+    "translation": "指甲",
+    "emoji": "💅",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly nails",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-chest",
+    "word": "chest",
+    "translation": "胸口",
+    "emoji": "🫁",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly chest",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-back",
+    "word": "back",
+    "translation": "背部",
+    "emoji": "🎒",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly back",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-belly",
+    "word": "belly",
+    "translation": "肚肚",
+    "emoji": "🙂",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly belly",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-waist",
+    "word": "waist",
+    "translation": "腰",
+    "emoji": "🧍",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly waist",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-hips",
+    "word": "hips",
+    "translation": "臀部",
+    "emoji": "🧍",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly hips",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-ankles",
+    "word": "ankles",
+    "translation": "腳踝",
+    "emoji": "🦶",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly ankles",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-heels",
+    "word": "heels",
+    "translation": "腳跟",
+    "emoji": "🦶",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly heels",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-soles",
+    "word": "soles",
+    "translation": "腳底",
+    "emoji": "🦶",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly soles",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-skin",
+    "word": "skin",
+    "translation": "皮膚",
+    "emoji": "🖐️",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly skin",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-bone",
+    "word": "bone",
+    "translation": "骨頭",
+    "emoji": "🦴",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly bone",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-muscle",
+    "word": "muscle",
+    "translation": "肌肉",
+    "emoji": "💪",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly muscle",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-brain",
+    "word": "brain",
+    "translation": "大腦",
+    "emoji": "🧠",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly brain",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-heart",
+    "word": "heart",
+    "translation": "心臟",
+    "emoji": "❤️",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly heart",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-lungs",
+    "word": "lungs",
+    "translation": "肺",
+    "emoji": "🫁",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly lungs",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-stomach",
+    "word": "stomach",
+    "translation": "胃",
+    "emoji": "🫃",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly stomach",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-bottom",
+    "word": "bottom",
+    "translation": "屁股",
+    "emoji": "🍑",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly bottom",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-beard",
+    "word": "beard",
+    "translation": "鬍鬚",
+    "emoji": "🧔",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly beard",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-mustache",
+    "word": "mustache",
+    "translation": "小鬍子",
+    "emoji": "👨",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly mustache",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-freckles",
+    "word": "freckles",
+    "translation": "雀斑",
+    "emoji": "🙂",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly freckles",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "body-dimples",
+    "word": "dimples",
+    "translation": "酒窩",
+    "emoji": "😊",
+    "category": "Body Parts",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly dimples",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-underwear",
+    "word": "underwear",
+    "translation": "內衣褲",
+    "emoji": "🩲",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly underwear",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-sweater",
+    "word": "sweater",
+    "translation": "毛衣",
+    "emoji": "🧶",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sweater",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-hoodie",
+    "word": "hoodie",
+    "translation": "連帽衫",
+    "emoji": "🧥",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly hoodie",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-raincoat",
+    "word": "raincoat",
+    "translation": "雨衣",
+    "emoji": "🧥",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly raincoat",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-vest",
+    "word": "vest",
+    "translation": "背心",
+    "emoji": "🦺",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly vest",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-jeans",
+    "word": "jeans",
+    "translation": "牛仔褲",
+    "emoji": "👖",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly jeans",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-shorts",
+    "word": "shorts",
+    "translation": "短褲",
+    "emoji": "🩳",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly shorts",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-leggings",
+    "word": "leggings",
+    "translation": "緊身褲",
+    "emoji": "👖",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly leggings",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-tights",
+    "word": "tights",
+    "translation": "褲襪",
+    "emoji": "🧦",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly tights",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-blouse",
+    "word": "blouse",
+    "translation": "女襯衫",
+    "emoji": "👚",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly blouse",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-tie",
+    "word": "tie",
+    "translation": "領帶",
+    "emoji": "👔",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly tie",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-bow-tie",
+    "word": "bow tie",
+    "translation": "蝴蝶結領帶",
+    "emoji": "🎀",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly bow tie",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-apron",
+    "word": "apron",
+    "translation": "圍裙",
+    "emoji": "🧑‍🍳",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly apron",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-swimsuit",
+    "word": "swimsuit",
+    "translation": "泳裝",
+    "emoji": "🩱",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly swimsuit",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-bathing-suit",
+    "word": "bathing suit",
+    "translation": "泳衣",
+    "emoji": "🩱",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly bathing suit",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-sandals",
+    "word": "sandals",
+    "translation": "涼鞋",
+    "emoji": "👡",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sandals",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-slippers",
+    "word": "slippers",
+    "translation": "拖鞋",
+    "emoji": "🥿",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly slippers",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-sneakers",
+    "word": "sneakers",
+    "translation": "運動鞋",
+    "emoji": "👟",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sneakers",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-cap",
+    "word": "cap",
+    "translation": "棒球帽",
+    "emoji": "🧢",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly cap",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-beanie",
+    "word": "beanie",
+    "translation": "毛帽",
+    "emoji": "🧶",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly beanie",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-sun-hat",
+    "word": "sun hat",
+    "translation": "遮陽帽",
+    "emoji": "👒",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly sun hat",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-mittens",
+    "word": "mittens",
+    "translation": "連指手套",
+    "emoji": "🧤",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly mittens",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-earmuffs",
+    "word": "earmuffs",
+    "translation": "耳罩",
+    "emoji": "🎧",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly earmuffs",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-backpack",
+    "word": "backpack",
+    "translation": "背包",
+    "emoji": "🎒",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly backpack",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-necklace",
+    "word": "necklace",
+    "translation": "項鍊",
+    "emoji": "📿",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly necklace",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-bracelet",
+    "word": "bracelet",
+    "translation": "手鍊",
+    "emoji": "📿",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly bracelet",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-watch",
+    "word": "watch",
+    "translation": "手錶",
+    "emoji": "⌚",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly watch",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-ring",
+    "word": "ring",
+    "translation": "戒指",
+    "emoji": "💍",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly ring",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-glasses",
+    "word": "glasses",
+    "translation": "眼鏡",
+    "emoji": "👓",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly glasses",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-mask",
+    "word": "mask",
+    "translation": "口罩",
+    "emoji": "😷",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly mask",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-rain-hat",
+    "word": "rain hat",
+    "translation": "雨帽",
+    "emoji": "🌧️",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly rain hat",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-hairband",
+    "word": "hairband",
+    "translation": "髮箍",
+    "emoji": "🎀",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly hairband",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-bow",
+    "word": "bow",
+    "translation": "蝴蝶結",
+    "emoji": "🎀",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly bow",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-uniform",
+    "word": "uniform",
+    "translation": "制服",
+    "emoji": "🧑‍🎓",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly uniform",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "clothes-costume",
+    "word": "costume",
+    "translation": "表演服",
+    "emoji": "🎭",
+    "category": "Clothes",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "A friendly costume",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-seventeen",
+    "word": "seventeen",
+    "translation": "十七",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number seventeen",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-eighteen",
+    "word": "eighteen",
+    "translation": "十八",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number eighteen",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-nineteen",
+    "word": "nineteen",
+    "translation": "十九",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number nineteen",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-twenty",
+    "word": "twenty",
+    "translation": "二十",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number twenty",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-twenty-one",
+    "word": "twenty-one",
+    "translation": "二十一",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number twenty-one",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-twenty-two",
+    "word": "twenty-two",
+    "translation": "二十二",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number twenty-two",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-twenty-three",
+    "word": "twenty-three",
+    "translation": "二十三",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number twenty-three",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-twenty-four",
+    "word": "twenty-four",
+    "translation": "二十四",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number twenty-four",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-twenty-five",
+    "word": "twenty-five",
+    "translation": "二十五",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number twenty-five",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-twenty-six",
+    "word": "twenty-six",
+    "translation": "二十六",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number twenty-six",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-twenty-seven",
+    "word": "twenty-seven",
+    "translation": "二十七",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number twenty-seven",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-twenty-eight",
+    "word": "twenty-eight",
+    "translation": "二十八",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number twenty-eight",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-twenty-nine",
+    "word": "twenty-nine",
+    "translation": "二十九",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number twenty-nine",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-thirty",
+    "word": "thirty",
+    "translation": "三十",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number thirty",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-thirty-one",
+    "word": "thirty-one",
+    "translation": "三十一",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number thirty-one",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-thirty-two",
+    "word": "thirty-two",
+    "translation": "三十二",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number thirty-two",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-thirty-three",
+    "word": "thirty-three",
+    "translation": "三十三",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number thirty-three",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-thirty-four",
+    "word": "thirty-four",
+    "translation": "三十四",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number thirty-four",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-thirty-five",
+    "word": "thirty-five",
+    "translation": "三十五",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number thirty-five",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-thirty-six",
+    "word": "thirty-six",
+    "translation": "三十六",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number thirty-six",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-thirty-seven",
+    "word": "thirty-seven",
+    "translation": "三十七",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number thirty-seven",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-thirty-eight",
+    "word": "thirty-eight",
+    "translation": "三十八",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number thirty-eight",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-thirty-nine",
+    "word": "thirty-nine",
+    "translation": "三十九",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number thirty-nine",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-forty",
+    "word": "forty",
+    "translation": "四十",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number forty",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-forty-one",
+    "word": "forty-one",
+    "translation": "四十一",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number forty-one",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-forty-two",
+    "word": "forty-two",
+    "translation": "四十二",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number forty-two",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-forty-three",
+    "word": "forty-three",
+    "translation": "四十三",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number forty-three",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-forty-four",
+    "word": "forty-four",
+    "translation": "四十四",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number forty-four",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-forty-five",
+    "word": "forty-five",
+    "translation": "四十五",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number forty-five",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-forty-six",
+    "word": "forty-six",
+    "translation": "四十六",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number forty-six",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-forty-seven",
+    "word": "forty-seven",
+    "translation": "四十七",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number forty-seven",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-forty-eight",
+    "word": "forty-eight",
+    "translation": "四十八",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number forty-eight",
+    "englishAudio": null,
+    "chineseAudio": null,
+    "speech": {
+      "englishLocale": "en-US",
+      "chineseLocale": "zh-TW"
+    }
+  },
+  {
+    "id": "numbers-forty-nine",
+    "word": "forty-nine",
+    "translation": "四十九",
+    "emoji": "🔢",
+    "category": "Numbers",
+    "image": null,
+    "imagePosition": "50% 50%",
+    "imageAlt": "The number forty-nine",
     "englishAudio": null,
     "chineseAudio": null,
     "speech": {
