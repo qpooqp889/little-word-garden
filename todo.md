@@ -380,8 +380,8 @@
 
 # GitHub Pages 同步錄音回放版本
 
-- [x] 檢查本地版本與公開遠端狀態
-- [x] 同步並推送例句錄音回放更新（commit 10b0d42）
-- [x] 確認 GitHub Actions build 與 deploy 成功（run 32826640341）
-- [x] 確認公開 Pages 載入最新版本（200 words、例句控制可見）
-- [x] 回報 GitHub 與 Pages 連結
+- [ ] 檢查本地版本與公開遠端狀態
+- [ ] 同步並推送例句錄音回放更新
+- [ ] 確認 GitHub Actions build 與 deploy 成功
+- [ ] 確認公開 Pages 載入最新版本
+- [ ] 回報 GitHub 與 Pages 連結
